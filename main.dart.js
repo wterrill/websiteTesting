@@ -11922,12 +11922,12 @@ if(b instanceof F.cg&&a instanceof F.eP){c=1-c
 s=b
 b=a
 a=s}if(a instanceof F.cg&&b instanceof F.eP){q=b.b
-if(J.c(q,C.n)&&J.c(b.c,C.n))return new F.cg(Y.b9(a.a,b.a,c),Y.b9(a.b,C.n,c),Y.b9(a.c,b.d,c),Y.b9(a.d,C.n,c))
+if(J.c(q,C.n)&&J.c(b.c,C.n))return new F.cg(Y.ba(a.a,b.a,c),Y.ba(a.b,C.n,c),Y.ba(a.c,b.d,c),Y.ba(a.d,C.n,c))
 r=a.d
-if(J.c(r,C.n)&&J.c(a.b,C.n))return new F.eP(Y.b9(a.a,b.a,c),Y.b9(C.n,q,c),Y.b9(C.n,b.c,c),Y.b9(a.c,b.d,c))
+if(J.c(r,C.n)&&J.c(a.b,C.n))return new F.eP(Y.ba(a.a,b.a,c),Y.ba(C.n,q,c),Y.ba(C.n,b.c,c),Y.ba(a.c,b.d,c))
 if(c<0.5){q=c*2
-return new F.cg(Y.b9(a.a,b.a,c),Y.b9(a.b,C.n,q),Y.b9(a.c,b.d,c),Y.b9(r,C.n,q))}r=(c-0.5)*2
-return new F.eP(Y.b9(a.a,b.a,c),Y.b9(C.n,q,r),Y.b9(C.n,b.c,r),Y.b9(a.c,b.d,c))}throw H.d(U.IN(H.a([U.rH("BoxBorder.lerp can only interpolate Border and BorderDirectional classes."),U.c_("BoxBorder.lerp() was called with two objects of type "+J.a8(a).j(0)+" and "+J.a8(b).j(0)+":\n  "+H.b(a)+"\n  "+H.b(b)+"\nHowever, only Border and BorderDirectional classes are supported by this method."),U.asD("For a more general interpolation method, consider using ShapeBorder.lerp instead.")],t.qe)))},
+return new F.cg(Y.ba(a.a,b.a,c),Y.ba(a.b,C.n,q),Y.ba(a.c,b.d,c),Y.ba(r,C.n,q))}r=(c-0.5)*2
+return new F.eP(Y.ba(a.a,b.a,c),Y.ba(C.n,q,r),Y.ba(C.n,b.c,r),Y.ba(a.c,b.d,c))}throw H.d(U.IN(H.a([U.rH("BoxBorder.lerp can only interpolate Border and BorderDirectional classes."),U.c_("BoxBorder.lerp() was called with two objects of type "+J.a8(a).j(0)+" and "+J.a8(b).j(0)+":\n  "+H.b(a)+"\n  "+H.b(b)+"\nHowever, only Border and BorderDirectional classes are supported by this method."),U.asD("For a more general interpolation method, consider using ShapeBorder.lerp instead.")],t.qe)))},
 avZ:function(a,b,c,d){var s,r,q=new H.bg(new H.bj())
 q.sau(0,c.a)
 s=d.e_(b)
@@ -11941,9 +11941,9 @@ aw_:function(a,b,c){var s=c.b,r=c.iJ()
 a.dr(0,b.fe(-(s/2)),r)},
 r5:function(a,b){var s=new Y.aM(a,b,C.r)
 return new F.cg(s,s,s,s)},
-asj:function(a,b,c){return new F.cg(Y.b9(a.a,b.a,c),Y.b9(a.b,b.b,c),Y.b9(a.c,b.c,c),Y.b9(a.d,b.d,c))},
-asi:function(a,b,c){var s=Y.b9(a.a,b.a,c),r=Y.b9(a.c,b.c,c),q=Y.b9(a.d,b.d,c)
-return new F.eP(s,Y.b9(a.b,b.b,c),r,q)},
+asj:function(a,b,c){return new F.cg(Y.ba(a.a,b.a,c),Y.ba(a.b,b.b,c),Y.ba(a.c,b.c,c),Y.ba(a.d,b.d,c))},
+asi:function(a,b,c){var s=Y.ba(a.a,b.a,c),r=Y.ba(a.c,b.c,c),q=Y.ba(a.d,b.d,c)
+return new F.eP(s,Y.ba(a.b,b.b,c),r,q)},
 H7:function H7(a){this.b=a},
 H4:function H4(){},
 cg:function cg(a,b,c,d){var _=this
@@ -12051,12 +12051,12 @@ _.b=b
 _.c=c
 _.d=d},
 zl:function zl(a){this.a=a},
-ata:function(a,b,c,d,e,f){return new F.hz(F.ba(b,!1).OR(c,!0,!0,f),a,null)},
-ba:function(a,b){var s=a.bT(t.Eo)
+ata:function(a,b,c,d,e,f){return new F.hz(F.b9(b,!1).OR(c,!0,!0,f),a,null)},
+b9:function(a,b){var s=a.bT(t.Eo)
 if(s!=null)return s.f
 if(b)return null
 throw H.d(U.IN(H.a([U.rH("MediaQuery.of() called with a context that does not contain a MediaQuery."),U.c_("No MediaQuery ancestor could be found starting from the context that was passed to MediaQuery.of(). This can happen because you do not have a WidgetsApp or MaterialApp widget (those widgets introduce a MediaQuery), or it can happen if the context you use comes from a widget above those widgets."),a.MC("The context used was")],t.gj)))},
-a3w:function(a){var s=F.ba(a,!0)
+a3w:function(a){var s=F.b9(a,!0)
 s=s==null?null:s.c
 return s==null?1:s},
 Kw:function Kw(a){this.b=a},
@@ -12657,9 +12657,9 @@ if(a instanceof E.i4){if(a.gpz()){s=b.bT(t.tt)
 r=s==null?g:s.f
 r=r==null?g:r.c
 r=r==null?g:r.gAK()
-if(r==null){r=F.ba(b,!0)
+if(r==null){r=F.b9(b,!0)
 r=r==null?g:r.d}q=r==null?C.K:r}else q=C.K
-if(a.gpx()){r=F.ba(b,!0)
+if(a.gpx()){r=F.b9(b,!0)
 r=r==null?g:r.ch
 p=r===!0}else p=!1
 if(a.gpy())K.aGf(b,!0)
@@ -14109,7 +14109,7 @@ E.dJ(!0,new L.Z4(E.dw(s,s,T.ak(H.a([L.l("This field requires a numeric response"
 aGp:function(a,b){var s=null,r=K.cK(new P.aF(50,50))
 E.dJ(!0,new L.Z3(E.dw(s,s,T.ak(H.a([L.l("There was an error communicating with the server. Error = "+H.b(b),s,s,s,s,s,s,s,s,s,s,s)],t.t),C.a3,C.j,C.a6),C.aq,6,new X.aX(r,C.n),s)),a,s,!0,t.H)},
 awy:function(a){var s=null,r=K.cK(new P.aF(50,50))
-E.dJ(!0,new L.Zt(E.dw(s,s,T.ak(H.a([L.l("Built and uploaded on: Wed Aug 26 23:56:50 CDT 2020",s,s,s,s,s,s,s,s,s,s,s),L.l("Flutter framework: "+H.b(C.vG.h(0,"frameworkVersion")),s,s,s,s,s,s,s,s,s,s,s),L.l("Dart version: "+H.b(C.vG.h(0,"dartSdkVersion")),s,s,s,s,s,s,s,s,s,s,s)],t.t),C.a3,C.j,C.a6),C.aq,6,new X.aX(r,C.n),s)),a,s,!0,t.H)},
+E.dJ(!0,new L.Zt(E.dw(s,s,T.ak(H.a([L.l("Built and uploaded on: Thu Aug 27 11:53:02 CDT 2020",s,s,s,s,s,s,s,s,s,s,s),L.l("Flutter framework: "+H.b(C.vG.h(0,"frameworkVersion")),s,s,s,s,s,s,s,s,s,s,s),L.l("Dart version: "+H.b(C.vG.h(0,"dartSdkVersion")),s,s,s,s,s,s,s,s,s,s,s)],t.t),C.a3,C.j,C.a6),C.aq,6,new X.aX(r,C.n),s)),a,s,!0,t.H)},
 awu:function(a){var s=null,r=K.cK(new P.aF(50,50))
 E.dJ(!0,new L.Z8(E.dw(s,s,T.ak(H.a([L.l("This audit cannot be scheduled as entered.  Please verify that all fields are filled.",s,s,s,s,s,s,s,s,s,s,s)],t.t),C.a3,C.j,C.a6),C.aq,6,new X.aX(r,C.n),s)),a,s,!0,t.H)},
 aGw:function(a){var s=null,r=K.cK(new P.aF(50,50))
@@ -14989,7 +14989,7 @@ if(!(r===C.am&&a.b===0))s=b.c===C.am&&b.b===0
 else s=!0
 if(s)return!0
 return r===b.c&&J.c(a.a,b.a)},
-b9:function(a,b,c){var s,r,q,p,o
+ba:function(a,b,c){var s,r,q,p,o
 if(c===0)return a
 if(c===1)return b
 s=P.ar(a.b,b.b,c)
@@ -18947,7 +18947,7 @@ UN:function UN(){},
 Vb:function(a,b){var s,r
 a.bT(t.An)
 s=$.as3()
-r=F.ba(a,!0)
+r=F.b9(a,!0)
 r=r==null?null:r.b
 if(r==null)r=1
 return new M.p5(s,r,L.JY(a,!0),T.aH(a),b,U.kw())},
@@ -38168,7 +38168,7 @@ return E.dw(s,s,new T.fI(new L.Zj(this.a),s),new V.a5(2,2,2,2),s,new X.aX(K.cK(n
 $S:7}
 L.Zj.prototype={
 $1:function(a){var s=null
-return M.o(s,new E.A4(new M.lo(this.a,1),s),s,s,s,s,F.ba(a,!1).a.b,s,s,s,F.ba(a,!1).a.a)},
+return M.o(s,new E.A4(new M.lo(this.a,1),s),s,s,s,s,F.b9(a,!1).a.b,s,s,s,F.b9(a,!1).a.a)},
 $S:542}
 L.Zx.prototype={
 $0:function(){this.a.$0()
@@ -38540,7 +38540,7 @@ return S.at3(!1,Q.u8(!0,new A.lf(new F.aiv(n),o),C.ad,!0),s,p,"")}}
 F.aiv.prototype={
 $2:function(a,b){var s,r
 P.w("constraints: "+H.b(b))
-s=F.ba(a,!1).a
+s=F.b9(a,!1).a
 s.b
 b.d
 r=t.B
@@ -39875,7 +39875,7 @@ N.afU.prototype={
 $0:function(){},
 $S:0}
 S.Mh.prototype={
-u:function(a,b){var s=null,r=L.l("Audit Summary",s,s,s,s,s,s,s,$.aA(),C.bU,s,s),q=F.ba(b,!1).a
+u:function(a,b){var s=null,r=L.l("Audit Summary",s,s,s,s,s,s,s,$.aA(),C.bU,s,s),q=F.b9(b,!1).a
 return T.b1(B.z5(H.a([r,M.o(s,B.j1(s,new S.a6F(this),J.aE(this.c.e)-4,s,!0),s,s,s,s,q.b*0.65,s,s,s,s),M.o(s,s,s,s,s,s,20,s,s,s,s)],t.t),s,s,s,!1,C.p,!1),1)}}
 S.a6F.prototype={
 $2:function(a,b){var s=null,r=$.iL(),q=F.r5($.iK(),3),p=L.aI(C.oZ,s,s),o=$.ei(),n=this.a.c,m=b+1
@@ -40095,24 +40095,25 @@ if(j.a.c==null)s=L.l("",i,i,i,i,i,i,i,i,i,i,i)
 else{r=t.t
 q=H.a([],r)
 q.push(T.t8(U.yC(C.f6,i,!1,new L.kE("assets/images/GCFD_Logo_vertical.png"),i),80,1/0))
-p=j.a.c
-o=p==null
-n=o?i:p.y
-n=n==null?i:n.e
-if(n==null)n=""
-m=$.dC()
-n=M.o(i,L.l(n,i,i,i,C.aD,i,i,i,m,i,i,i),i,i,i,i,i,i,i,i,500)
-l=o?i:p.y
-l=l==null?i:l.f
-l=L.l(l==null?"":l,i,i,i,i,i,i,i,m,i,i,i)
-k=L.l("/",i,i,i,i,i,i,i,m,i,i,i)
-p=o?i:p.y
-p=p==null?i:p.x
-p=T.al(H.a([T.al(H.a([l,k,L.l(p==null?"":p,i,i,i,i,i,i,i,m,i,i,i)],r),C.h,C.j,C.f,i)],r),C.h,C.co,C.f,i)
+p=F.b9(b,!1).a
 o=j.a.c
-o=o==null?i:o.d
-if(o==null)o=""
-q.push(new T.a_(C.at,M.o(i,T.ak(H.a([n,p,L.l(o,i,i,i,i,i,i,i,$.aA(),i,i,i)],r),C.a3,C.j,C.f),i,i,i,i,i,i,i,i,i),i))
+n=o==null
+m=n?i:o.y
+m=m==null?i:m.e
+if(m==null)m=""
+l=$.dC()
+p=M.o(i,L.l(m,i,i,i,C.aD,i,i,i,l,i,i,i),i,i,i,i,i,i,i,i,p.a*0.5)
+m=n?i:o.y
+m=m==null?i:m.f
+m=L.l(m==null?"":m,i,i,i,i,i,i,i,l,i,i,i)
+k=L.l("/",i,i,i,i,i,i,i,l,i,i,i)
+o=n?i:o.y
+o=o==null?i:o.x
+o=T.al(H.a([T.al(H.a([m,k,L.l(o==null?"":o,i,i,i,i,i,i,i,l,i,i,i)],r),C.h,C.j,C.f,i)],r),C.h,C.co,C.f,i)
+n=j.a.c
+n=n==null?i:n.d
+if(n==null)n=""
+q.push(new T.a_(C.at,M.o(i,T.ak(H.a([p,o,L.l(n,i,i,i,i,i,i,i,$.aA(),i,i,i)],r),C.a3,C.j,C.f),i,i,i,i,i,i,i,i,i),i))
 p=j.a.c
 o=p.y.y
 if(o!=="Senior Adults Program"&&o!=="Healthy Student Market"){p=p.go
@@ -41127,7 +41128,7 @@ r=Y.t(b,!0,g).ch
 q=t.t
 p=H.a([],q)
 o=$.kz()
-if(Y.t(b,!0,g).r){g=F.ba(b,!1).a
+if(Y.t(b,!0,g).r){g=F.b9(b,!1).a
 n=M.o(h,T.al(H.a([M.o(h,h,h,h,h,h,h,h,h,h,30),R.fV(!1,!0,Z.fR(C.DY,h,35),h,!0,h,h,h,h,h,h,h,h,h,h,new O.ahu(this,b),h,h,h),M.o(h,h,h,h,h,h,h,h,h,h,30),R.fV(!1,!0,Z.fR(C.E_,h,35),h,!0,h,h,h,h,h,h,h,h,h,h,new O.ahv(b),h,h,h)],q),C.h,C.j,C.f,h),h,h,h,h,h,h,h,h,h)
 m=T.kT("MM/dd",h).dc(new P.bl(Date.now(),!1).mI(P.cx(7,0,0,0)))+"-"+T.kT("MM/dd",h).dc(new P.bl(Date.now(),!1).F(0,P.cx(7,0,0,0)))
 m=L.l(m,h,h,h,h,h,h,h,!s?$.ez():$.av7(),h,h,h)
@@ -42122,7 +42123,7 @@ P:function(){return new B.U_(D.eu(null),C.k)}}
 B.U_.prototype={
 q:function(a){this.d.t$=null
 this.aR(0)},
-u:function(a,b){var s=null,r=F.ba(b,!1).a,q=$.dv(),p=T.asN(U.yC(C.f6,s,!1,new L.kE("assets/images/GCFD_Logo.png"),s),s,s,s,"GCFD_Logo",!1),o=K.aY(20),n=H.a([new O.bL(0,new P.C(1431655765),C.Hm,5)],t.O),m=$.aA(),l=K.aY(25),k=K.aY(25),j=$.f9(),i=Z.fR(C.DZ,j,s)
+u:function(a,b){var s=null,r=F.b9(b,!1).a,q=$.dv(),p=T.asN(U.yC(C.f6,s,!1,new L.kE("assets/images/GCFD_Logo.png"),s),s,s,s,"GCFD_Logo",!1),o=K.aY(20),n=H.a([new O.bL(0,new P.C(1431655765),C.Hm,5)],t.O),m=$.aA(),l=K.aY(25),k=K.aY(25),j=$.f9(),i=Z.fR(C.DZ,j,s)
 n=M.o(s,Z.kc(!0,s,!1,s,this.d,s,s,s,2,L.eV(s,s,s,s,s,s,s,!0,new F.cD(4,k,new Y.aM(j,2,C.r)),s,s,s,s,C.q,!0,C.ay,s,new F.cD(4,l,new Y.aM(C.aS,1,C.r)),s,!0,s,s,s,s,A.bB(s,s,C.ex,s,s,s,s,s,s,s,s,15,s,s,s,s,!0,s,s,s,s,s,s),"Agency / Program Number Filter",s,s,!1,s,s,s,s,s,s,s,s,s,s,new T.a_(C.Dw,i,s),s,s,s),!0,!0,s,!1,s,s,s,s,s,!0,1,s,!1,"\u2022",new B.aob(this,b),s,s,s,!1,C.bA,s,s,s,s,s,m,C.a7,s,C.ca,s,s,s),s,s,new S.aG(s,s,s,o,n,s,C.t),s,40,s,s,s,350)
 o=M.o(s,Z.fR(C.DX,$.f9(),45),s,s,s,s,s,s,s,s,s)
 m=Y.t(b,!1,t.B).a
@@ -42314,7 +42315,7 @@ u:function(a,b){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=null,e=t.A,d=Y.t(b,!0,e).d,c=Y.t
 e=t.Z
 s=Y.t(b,!0,e).x
 r=Y.t(b,!0,e).z
-e=F.ba(b,!1).a
+e=F.b9(b,!1).a
 q=L.l("auditBox",f,f,f,f,f,f,f,f,f,f,f)
 p=d.e.c
 o=p.$ti
@@ -45388,7 +45389,7 @@ this.d=null},
 a46:function(a){if(this.a.a8T())this.e.Lp(a)},
 GP:function(a){switch(T.aH(this.c)){case C.x:return-a
 case C.w:return a}return null},
-u:function(a,b){var s=null,r=Math.max(H.u(T.aH(b)===C.w?F.ba(b,!1).f.a:F.ba(b,!1).f.c),20)
+u:function(a,b){var s=null,r=Math.max(H.u(T.aH(b)===C.w?F.b9(b,!1).f.a:F.b9(b,!1).f.c),20)
 return T.ka(C.ce,H.a([this.a.c,new T.Lu(0,0,0,r,T.JV(C.f9,s,s,this.ga45(),s,s),s)],t.t),C.xz,s,s)}}
 D.CH.prototype={
 MR:function(a){var s,r,q,p=this,o={}
@@ -45460,9 +45461,9 @@ q=T.aH(r)
 p=m.gA2()
 o=m.r
 n=m.gzG()
-m.e=E.ayt(s,3,o,3,36,8,F.ba(r,!1).f,n,q,p)}else{s.sbI(0,T.aH(r))
+m.e=E.ayt(s,3,o,3,36,8,F.b9(r,!1).f,n,q,p)}else{s.sbI(0,T.aH(r))
 s.sau(0,E.oF(C.u5,m.c,!0))
-s.seP(0,F.ba(m.c,!1).f)}m.a5B()},
+s.seP(0,F.b9(m.c,!1).f)}m.a5B()},
 bn:function(a){var s,r,q,p=this
 p.bF(a)
 s=p.e
@@ -47080,11 +47081,11 @@ case 1:return P.cG(p)}}},t.K2)},
 a1V:function(a,b){return new E.IM(C.Ek,b,C.zl,null)},
 a2f:function(a,b){var s,r,q,p,o,n=this,m=null
 n.a.toString
-s=F.ba(a,!0)
+s=F.b9(a,!0)
 r=s==null?m:s.d
 if(r==null)r=C.K
 q=r===C.N
-s=F.ba(a,!0)
+s=F.b9(a,!0)
 s=s==null?m:s.ch
 p=s===!0
 if(q)if(p)n.a.toString
@@ -47158,7 +47159,7 @@ case C.Q:case C.Y:i=c
 break
 default:i=c}j=T.bQ(c,new E.OD(j,c),!1,c,c,c,!1,!1,c,c,!0,c,c,c,c,c,c,i,c,c,c,c,c,c,c,c,c,c,c,c)
 j=L.kW(j,c,c,C.aD,!1,m,c,c,C.as)
-h=F.ba(a5,!1)
+h=F.b9(a5,!1)
 j=new F.hz(h.B5(Math.min(h.c,1.34)),j,c)}s=d.a.f
 if(s!=null&&s.length!==0)g=T.al(s,C.cE,C.j,C.a6,c)
 else if(a3===!0){L.bM(a5,C.C,t.M).toString
@@ -47605,8 +47606,8 @@ s=q==null?null:q.ao(a)
 q=p==null
 if(q&&s==null)return null
 if(q){q=s.a
-return Y.b9(new Y.aM(P.aQ(0,(16711680&q.gm(q))>>>16,(65280&q.gm(q))>>>8,(255&q.gm(q))>>>0),0,C.r),s,r.c)}if(s==null){q=p.a
-return Y.b9(new Y.aM(P.aQ(0,(16711680&q.gm(q))>>>16,(65280&q.gm(q))>>>8,(255&q.gm(q))>>>0),0,C.r),p,r.c)}return Y.b9(p,s,r.c)},
+return Y.ba(new Y.aM(P.aQ(0,(16711680&q.gm(q))>>>16,(65280&q.gm(q))>>>8,(255&q.gm(q))>>>0),0,C.r),s,r.c)}if(s==null){q=p.a
+return Y.ba(new Y.aM(P.aQ(0,(16711680&q.gm(q))>>>16,(65280&q.gm(q))>>>8,(255&q.gm(q))>>>0),0,C.r),p,r.c)}return Y.ba(p,s,r.c)},
 $ibU:1}
 A.R1.prototype={
 ao:function(a){var s,r=this.a,q=r==null?null:r.ao(a)
@@ -47644,7 +47645,7 @@ r=s==null?b8:s.a
 b7.a.toString
 q=K.ae(c1,!1)
 p=q.H
-s=F.ba(c1,!0)
+s=F.b9(c1,!0)
 s=s==null?b8:s.c
 o=K.aFV(C.an,C.f5,C.lo,s==null?1:s)
 s=p.a
@@ -48141,7 +48142,7 @@ return P.ah(s.a,s.b,s.c,s.d,s.e,s.f,s.r,s.x,s.y,s.z,s.Q,s.ch,s.cx,C.a,C.a,C.a,C.
 A.Pa.prototype={}
 E.lm.prototype={}
 E.I5.prototype={
-u:function(a,b){var s,r,q=this,p=null,o=K.ae(b,!1).a5,n=F.ba(b,!1).e,m=n.I(0,q.r)
+u:function(a,b){var s,r,q=this,p=null,o=K.ae(b,!1).a5,n=F.b9(b,!1).e,m=n.I(0,q.r)
 n=q.c
 if(n==null)n=o.a
 if(n==null)n=K.ae(b,!1).ry
@@ -48152,7 +48153,7 @@ r=q.y
 if(r==null)r=o.c
 if(r==null)r=C.eQ
 r=T.b8(new T.dE(C.zo,M.eW(C.B,!0,p,q.z,q.x,n,s,p,p,r,p,C.fV),p),p,p)
-return new G.wx(m,new F.hz(F.ba(b,!1).OV(!0,!0,!0,!0),r,p),C.oC,C.b0,p,p)}}
+return new G.wx(m,new F.hz(F.b9(b,!1).OV(!0,!0,!0,!0),r,p),C.oC,C.b0,p,p)}}
 E.qR.prototype={
 u:function(a,b){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g=K.ae(b,!1),f=K.ae(b,!1).a5,e=i.c,d=e==null
 if(d)switch(g.aA){case C.Q:case C.Y:s=h
@@ -48161,7 +48162,7 @@ case C.P:case C.a4:case C.X:case C.Z:r=L.bM(b,C.C,t.M)
 s=r==null?h:"Alert"
 break
 default:s=h}else s=h
-q=P.ar(1,0.3333333333333333,C.e.J(F.ba(b,!1).c,1,2)-1)
+q=P.ar(1,0.3333333333333333,C.e.J(F.b9(b,!1).c,1,2)-1)
 T.aH(b)
 r=!d
 if(r){p=24*q
@@ -48447,7 +48448,7 @@ s=!0}else s=!1
 return s},
 ga4T:function(){switch(this.z){case C.d9:return!1
 case C.cH:return this.x}return null},
-u:function(a,b){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=null,f=F.ba(b,!0),e=f==null?g:f.grf(f)
+u:function(a,b){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=null,f=F.b9(b,!0),e=f==null?g:f.grf(f)
 if(e==null){s=$.b_().gkT()
 e=s.a>s.b?C.bS:C.aV}f=h.f
 if(f==null){h.f=e
@@ -49003,7 +49004,7 @@ o=n.a
 return m.a=i.Mi(0,q,s,o.ch,l,p,new R.ah_(m,n),j,o.cy,r,k,T.aH(n.c))},
 a_C:function(a){if(this.c==null)return
 this.v(new R.ah0(this))},
-ga4Q:function(){var s=this,r=F.ba(s.c,!0),q=r==null?null:r.db
+ga4Q:function(){var s=this,r=F.b9(s.c,!0),q=r==null?null:r.db
 switch(q==null?C.aU:q){case C.aU:return s.hB(s.a)&&s.z
 case C.fW:return s.z}return null},
 Ac:function(){var s,r=$.bk.bu$.f.b
@@ -49065,7 +49066,7 @@ s.f=!0
 if(s.hB(s.a))s.ox(C.iV,s.f)},
 a0k:function(a){this.f=!1
 this.ox(C.iV,!1)},
-gWB:function(){var s=this,r=F.ba(s.c,!0),q=r==null?null:r.db
+gWB:function(){var s=this,r=F.b9(s.c,!0),q=r==null?null:r.db
 switch(q==null?C.aU:q){case C.aU:return s.hB(s.a)&&s.a.r2
 case C.fW:return!0}return null},
 u:function(a,b){var s,r,q,p,o,n,m,l,k,j=this,i=null
@@ -49142,10 +49143,10 @@ em:function(a,b){var s=P.cY()
 s.fp(this.b.e_(a))
 return s},
 dd:function(a,b){var s
-if(a instanceof F.kh){s=Y.b9(a.a,this.a,b)
+if(a instanceof F.kh){s=Y.ba(a.a,this.a,b)
 return new F.kh(K.kG(a.b,this.b,b),s)}return this.i6(a,b)},
 de:function(a,b){var s
-if(a instanceof F.kh){s=Y.b9(this.a,a.a,b)
+if(a instanceof F.kh){s=Y.ba(this.a,a.a,b)
 return new F.kh(K.kG(this.b,a.b,b),s)}return this.i7(a,b)},
 od:function(a,b,c,d,e,f){var s=this.b
 if(!J.c(s.c,C.F)||!J.c(s.d,C.F))a.ij(0,this.em(b,f))
@@ -49166,11 +49167,11 @@ bk:function(a,b){var s=this.a.bk(0,b)
 return new F.cD(this.b*b,this.c.S(0,b),s)},
 dd:function(a,b){var s,r
 if(a instanceof F.cD){s=K.kG(a.c,this.c,b)
-r=Y.b9(a.a,this.a,b)
+r=Y.ba(a.a,this.a,b)
 return new F.cD(a.b,s,r)}return this.i6(a,b)},
 de:function(a,b){var s,r
 if(a instanceof F.cD){s=K.kG(this.c,a.c,b)
-r=Y.b9(this.a,a.a,b)
+r=Y.ba(this.a,a.a,b)
 return new F.cD(a.b,s,r)}return this.i7(a,b)},
 em:function(a,b){var s=P.cY()
 s.fp(this.c.e_(a))
@@ -51117,12 +51118,12 @@ K.aJ(r,!1).eR(0,q)},
 Xq:function(){K.aJ(this.c,!1).eR(0,null)},
 Xs:function(){this.v(new B.adR(this))},
 ZZ:function(a){this.v(new B.adQ(this,a))},
-XE:function(a){var s=F.ba(a,!1),r=s.grf(s)
+XE:function(a){var s=F.b9(a,!1),r=s.grf(s)
 switch(this.d){case C.j6:switch(r){case C.aV:return C.IU
 case C.bS:return C.IY}break
 case C.j7:switch(r){case C.aV:return C.IT
 case C.bS:return C.IX}break}return null},
-u:function(b2,b3){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2=this,a3=null,a4={},a5=K.ae(b3,!1),a6=a5.H,a7=L.bM(b3,C.C,t.M),a8=F.ba(b3,!1),a9=a8.grf(a8),b0=a5.t,b1=Math.min(F.ba(b3,!1).c,1.3)
+u:function(b2,b3){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2=this,a3=null,a4={},a5=K.ae(b3,!1),a6=a5.H,a7=L.bM(b3,C.C,t.M),a8=F.b9(b3,!1),a9=a8.grf(a8),b0=a5.t,b1=Math.min(F.b9(b3,!1).c,1.3)
 a8=a2.e
 if(a8!=null){a7.toString
 s=C.F8[H.tS(a8)-1]
@@ -51176,7 +51177,7 @@ default:g=a3
 h=g}a8=a2.a.Q
 if(a8==null)a8="SELECT DATE"
 a1=a2.XE(b3).S(0,b1)
-return E.asz(a3,G.qU(new F.hz(F.ba(b3,!1).B5(b1),new T.fI(new B.adT(a4,a9,new S.HP(a8,q,o,a9,a7,h,g,a2.gXr(),a3),l),a3),a3),a3,C.ck,a3,C.B,a1.b,a3,a1.a),C.f0,a3,C.Do,a3)}}
+return E.asz(a3,G.qU(new F.hz(F.b9(b3,!1).B5(b1),new T.fI(new B.adT(a4,a9,new S.HP(a8,q,o,a9,a7,h,g,a2.gXr(),a3),l),a3),a3),a3,C.ck,a3,C.B,a1.b,a3,a1.a),C.f0,a3,C.Do,a3)}}
 B.adS.prototype={
 $0:function(){return this.a.f=!0},
 $S:21}
@@ -51435,7 +51436,7 @@ e=S.tV(C.d7)
 d=H.a([],t.HK)
 c=$.ab
 k.dg(new Z.Ek(r,q,a1,a,o,j,l,n,m,p,!0,"Dismiss",a,i,new N.b2(a,s.i("b2<jA<1*>*>")),new N.b2(a,t.o),new S.pw(),a,new P.b7(new P.ad(h,g),f),e,d,C.iD,new P.b7(new P.ad(c,g),f),s.i("Ek<1*>")),s.i("1*")).bR(0,new Z.a5n(b),t.H)}},
-ga3z:function(){var s=F.ba(this.c,!0),r=s==null?null:s.db
+ga3z:function(){var s=F.b9(this.c,!0),r=s==null?null:s.db
 switch(r==null?C.aU:r){case C.aU:this.a.toString
 return!0
 case C.fW:return!0}return null},
@@ -51676,7 +51677,7 @@ aal:function(a){var s,r,q,p=this,o=p.y
 if(o.b!==o.c){C.bC.gbd(null)
 s=!1}else s=!0
 if(s)return
-r=F.ba(p.c,!1)
+r=F.b9(p.c,!1)
 q=o.gR(o).b
 if(r.z){C.bC.sm(null,0)
 q.cv(0,a)}else C.bC.cZ(null).bR(0,new M.a6X(p,q,a),t.H)
@@ -51700,7 +51701,7 @@ s.fx=G.bO(r,C.B,0,r,1,r,s)},
 bn:function(a){this.a.toString
 a.toString
 this.bF(a)},
-ax:function(){var s,r=this,q=F.ba(r.c,!1)
+ax:function(){var s,r=this,q=F.b9(r.c,!1)
 if(r.ch===!0)if(!q.z){s=r.Q
 s=s!=null&&s.b==null}else s=!1
 else s=!1
@@ -51721,7 +51722,7 @@ if(n!=null)n.a.c.q(0)
 o.db.q(0)
 o.fx.q(0)
 o.U2(0)},
-xO:function(a,b,c,d,e,f,g,h,i){var s=F.ba(this.c,!1).OR(f,g,h,i)
+xO:function(a,b,c,d,e,f,g,h,i){var s=F.b9(this.c,!1).OR(f,g,h,i)
 if(e)s=s.adj(!0)
 if(d&&s.e.d!==0)s=s.M9(s.f.uZ(s.r.d))
 if(b!=null)a.push(T.a3_(new F.hz(s,b,null),c))},
@@ -51730,7 +51731,7 @@ pe:function(a,b,c,d,e,f,g){return this.xO(a,b,c,!1,!1,d,e,f,g)},
 VB:function(a,b,c,d,e,f,g,h){return this.xO(a,b,c,d,!1,e,f,g,h)},
 G9:function(a,b){this.a.toString},
 G8:function(a,b){this.a.toString},
-u:function(a,b){var s,r,q,p,o,n,m,l,k,j=this,i=null,h={},g=F.ba(b,!1),f=K.ae(b,!1),e=T.aH(b)
+u:function(a,b){var s,r,q,p,o,n,m,l,k,j=this,i=null,h={},g=F.b9(b,!1),f=K.ae(b,!1),e=T.aH(b)
 j.ch=g.z
 s=j.y
 if(!s.gZ(s)){r=T.a3N(b,t._)
@@ -51834,7 +51835,7 @@ o.e=r
 q=o.f
 p=o.a.f
 if(p==null)p=6
-o.d=E.ayt(q,0,o.y,0,18,null,F.ba(o.c,!1).f,null,r,p)
+o.d=E.ayt(q,0,o.y,0,18,null,F.b9(o.c,!1).f,null,r,p)
 o.r=!1
 o.a4p()
 break}},
@@ -52052,7 +52053,7 @@ if(r.a.c==null)r.Xh()
 s=r.gpo()
 r.gjU()
 s.sdJ(!0)},
-gKr:function(){var s=F.ba(this.c,!0),r=s==null?null:s.db
+gKr:function(){var s=F.b9(this.c,!0),r=s==null?null:s.db
 switch(r==null?C.aU:r){case C.aU:this.gjU()
 return!0
 case C.fW:return!0}return null},
@@ -52127,7 +52128,7 @@ switch(c5.aA){case C.Q:case C.Y:c3.y=!0
 k=$.aDX()
 m=K.awh(c7).grk()
 j=c5.k4
-i=new P.m(-2/F.ba(c7,!1).b,0)
+i=new P.m(-2/F.b9(c7,!1).b,0)
 h=j
 g=!0
 f=!0
@@ -52628,7 +52629,7 @@ else n7=!1
 if(n7)n5=null
 else if(n6)n5=n4.dx
 else{n6=n4.dx
-if(!(n6==null))n5=Y.b9(n5,n6,p7)}n6=P.a4(m3.a,n4.a,p7)
+if(!(n6==null))n5=Y.ba(n5,n6,p7)}n6=P.a4(m3.a,n4.a,p7)
 n7=P.a4(m3.b,n4.b,p7)
 n8=P.a4(m3.c,n4.c,p7)
 n9=P.a4(m3.d,n4.d,p7)
@@ -52843,7 +52844,7 @@ return new Z.bq(s,b==null?this.b:b)},
 ws:function(a){return this.OZ(a,null)},
 Dj:function(a){return this.OZ(null,a)},
 dc:function(a){var s=L.bM(a,C.C,t.M)
-F.ba(a,!1).toString
+F.b9(a,!1).toString
 return s.Ni(this,!1)},
 n:function(a,b){if(b==null)return!1
 return b instanceof Z.bq&&b.a===this.a&&b.b==this.b},
@@ -52866,7 +52867,7 @@ M.anH.prototype={}
 M.Fd.prototype={
 ZS:function(a){if(a!=this.d)this.f.$1(a)},
 u:function(a,b){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g=K.ae(b,!1),f=t.M,e=L.bM(b,C.C,f)
-F.ba(b,!1).toString
+F.b9(b,!1).toString
 e.toString
 e=i.c
 s=i.r
@@ -52923,7 +52924,7 @@ r=P.aQ(31,(16711680&r)>>>16,(65280&r)>>>8,(255&r)>>>0)}return r},
 $S:35}
 M.Do.prototype={
 u:function(a,b){var s,r,q,p,o,n,m,l,k=this,j=null
-F.ba(b,!1).toString
+F.b9(b,!1).toString
 s=L.bM(b,C.C,t.M)
 r=k.c
 q=s.m2(r.a,!1)
@@ -53011,7 +53012,7 @@ if(j==null)j=C.eQ
 i=a2.dx
 if(i==null){h=a1.Q.a
 i=new Y.aM(P.ass(P.aQ(97,(16711680&h)>>>16,(65280&h)>>>8,(255&h)>>>0),a1.e),1,C.r)}j=j.lM(i)
-g=Math.min(F.ba(a5,!1).c,2)
+g=Math.min(F.b9(a5,!1).c,2)
 h=V.eX(s,p,q)
 f=M.a04(new M.ae2(b,a5),a5)
 a0.toString
@@ -53189,7 +53190,7 @@ ax:function(){var s=this
 s.Ur()
 s.d=K.ae(s.c,!1)
 s.e=L.bM(s.c,C.C,t.M)
-s.f=F.ba(s.c,!1)},
+s.f=F.b9(s.c,!1)},
 bn:function(a){var s,r=this
 r.bF(a)
 s=r.a
@@ -53270,7 +53271,7 @@ s=r===C.af?new Z.bq(a,o):new Z.bq(a+12,o)}q=p.lp(s)
 o=p.r
 o.b=o.a=q
 p.u6()},
-y3:function(a,b,c,d,e){var s=null,r=new U.kd(new Q.eI(d,s,s,a.y.cm(b)),C.a7,C.w,Math.min(F.ba(this.c,!1).c,2),s,s,s,s,C.as,s)
+y3:function(a,b,c,d,e){var s=null,r=new U.kd(new Q.eI(d,s,s,a.y.cm(b)),C.a7,C.w,Math.min(F.b9(this.c,!1).c,2),s,s,s,s,C.as,s)
 r.NW(0)
 return new M.w4(c,r)},
 G7:function(a,b){var s,r,q,p=this,o=H.a([],t.wS)
@@ -53358,7 +53359,7 @@ zC:function(a){var s,r,q=null
 if(a==null)return q
 s=H.tT(a,q)
 if(s==null)return q
-F.ba(this.c,!1).toString
+F.b9(this.c,!1).toString
 if(s>0&&s<13){r=this.d.a<12
 if(!((r?C.af:C.aI)===C.aI&&s!==12))r=(r?C.af:C.aI)===C.af&&s===12
 else r=!0
@@ -53388,7 +53389,7 @@ return s==null?"":null},
 a61:function(a){var s=this.J9(a)
 this.v(new M.anJ(this,s))
 return s==null?"":null},
-u:function(a,b){var s,r,q,p,o,n,m,l,k,j=this,i=null,h=F.ba(b,!1),g=t.M,f=L.bM(b,C.C,g)
+u:function(a,b){var s,r,q,p,o,n,m,l,k,j=this,i=null,h=F.b9(b,!1),g=t.M,f=L.bM(b,C.C,g)
 h.toString
 f.toString
 f=Z.aBp(C.cy)
@@ -53449,7 +53450,7 @@ ax:function(){var s=this
 s.bO()
 if(s.d==null)s.d=D.eu(s.gHB())},
 gHB:function(){var s,r,q
-F.ba(this.c,!1).toString
+F.b9(this.c,!1).toString
 s=L.bM(this.c,C.C,t.M)
 r=this.a
 q=r.d
@@ -53465,7 +53466,7 @@ q=P.aQ(31,(16711680&f)>>>16,(65280&f)>>>8,(255&f)>>>0)}f=k.e.gcb()?j:k.gHB()
 if(k.e.gcb())e=C.S
 else e=q
 r=r.a82(e,f)
-f=F.ba(b,!1).B5(1)
+f=F.b9(b,!1).B5(1)
 e=H.a([new B.JK(2)],t.a8)
 s=k.e
 p=k.a.e
@@ -53523,7 +53524,7 @@ S.eE("Select minutes",T.aH(r))
 break}s.r=s.f},
 VM:function(){var s,r,q,p,o=this
 if(o.ch)return
-s=F.ba(o.c,!1)
+s=F.b9(o.c,!1)
 r=L.bM(o.c,C.C,t.M)
 q=o.c
 p=o.a.c
@@ -53540,7 +53541,7 @@ if(!s.jz()){p.v(new M.anE(p))
 return}s.bN(0)}r=p.c
 q=p.y
 K.aJ(r,!1).eR(0,q)},
-u:function(a1,a2){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this,b=null,a=F.ba(a2,!1),a0=c.Q
+u:function(a1,a2){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this,b=null,a=F.b9(a2,!1),a0=c.Q
 a.toString
 a0.toString
 s=Z.aBp(C.cy)!==C.oW
@@ -53581,10 +53582,10 @@ break
 default:h=b}break
 case C.iR:h=A.yn(c.x,E.h5(T.ak(H.a([new M.Fe(c.y,c.a.r,c.gIb(),b),l],a0),C.h,C.j,C.a6),C.o,b,!1,C.p),c.d)
 break
-default:h=b}a0=F.ba(a2,!1)
+default:h=b}a0=F.b9(a2,!1)
 p=a0.grf(a0)
 g=K.ae(a2,!1)
-f=Math.min(F.ba(a2,!1).c,1.1)
+f=Math.min(F.b9(a2,!1).c,1.1)
 switch(c.e){case C.iQ:switch(p){case C.aV:e=g.aX===C.dt?496:484
 d=328
 break
@@ -54366,9 +54367,9 @@ X.e3.prototype={
 gf9:function(){var s=this.a.b
 return new V.a5(s,s,s,s)},
 bk:function(a,b){return new X.e3(this.a.bk(0,b))},
-dd:function(a,b){if(a instanceof X.e3)return new X.e3(Y.b9(a.a,this.a,b))
+dd:function(a,b){if(a instanceof X.e3)return new X.e3(Y.ba(a.a,this.a,b))
 return this.i6(a,b)},
-de:function(a,b){if(a instanceof X.e3)return new X.e3(Y.b9(this.a,a.a,b))
+de:function(a,b){if(a instanceof X.e3)return new X.e3(Y.ba(this.a,a.a,b))
 return this.i7(a,b)},
 em:function(a,b){var s=P.cY()
 s.pY(0,P.tZ(a.gbC(),a.ghn()/2))
@@ -55061,16 +55062,16 @@ return new V.a5(s,s,s,s)},
 bk:function(a,b){var s=this.a.bk(0,b)
 return new X.aX(this.b.S(0,b),s)},
 dd:function(a,b){var s,r,q=this
-if(a instanceof X.aX){s=Y.b9(a.a,q.a,b)
+if(a instanceof X.aX){s=Y.ba(a.a,q.a,b)
 r=K.oq(a.b,q.b,b)
 r.toString
-return new X.aX(r,s)}if(a instanceof X.e3)return new X.f3(q.b,1-b,Y.b9(a.a,q.a,b))
+return new X.aX(r,s)}if(a instanceof X.e3)return new X.f3(q.b,1-b,Y.ba(a.a,q.a,b))
 return q.i6(a,b)},
 de:function(a,b){var s,r,q=this
-if(a instanceof X.aX){s=Y.b9(q.a,a.a,b)
+if(a instanceof X.aX){s=Y.ba(q.a,a.a,b)
 r=K.oq(q.b,a.b,b)
 r.toString
-return new X.aX(r,s)}if(a instanceof X.e3)return new X.f3(q.b,b,Y.b9(q.a,a.a,b))
+return new X.aX(r,s)}if(a instanceof X.e3)return new X.f3(q.b,b,Y.ba(q.a,a.a,b))
 return q.i7(a,b)},
 lM:function(a){var s=a==null?this.a:a
 return new X.aX(this.b,s)},
@@ -55098,22 +55099,22 @@ return new V.a5(s,s,s,s)},
 bk:function(a,b){var s=this.a.bk(0,b)
 return new X.f3(this.b.S(0,b),b,s)},
 dd:function(a,b){var s,r,q,p=this
-if(a instanceof X.aX){s=Y.b9(a.a,p.a,b)
+if(a instanceof X.aX){s=Y.ba(a.a,p.a,b)
 r=K.oq(a.b,p.b,b)
 r.toString
 return new X.f3(r,p.c*b,s)}if(a instanceof X.e3){s=p.c
-return new X.f3(p.b,s+(1-s)*(1-b),Y.b9(a.a,p.a,b))}if(a instanceof X.f3){s=Y.b9(a.a,p.a,b)
+return new X.f3(p.b,s+(1-s)*(1-b),Y.ba(a.a,p.a,b))}if(a instanceof X.f3){s=Y.ba(a.a,p.a,b)
 r=K.oq(a.b,p.b,b)
 r.toString
 q=P.ar(a.c,p.c,b)
 q.toString
 return new X.f3(r,q,s)}return p.i6(a,b)},
 de:function(a,b){var s,r,q,p=this
-if(a instanceof X.aX){s=Y.b9(p.a,a.a,b)
+if(a instanceof X.aX){s=Y.ba(p.a,a.a,b)
 r=K.oq(p.b,a.b,b)
 r.toString
 return new X.f3(r,p.c*(1-b),s)}if(a instanceof X.e3){s=p.c
-return new X.f3(p.b,s+(1-s)*b,Y.b9(p.a,a.a,b))}if(a instanceof X.f3){s=Y.b9(p.a,a.a,b)
+return new X.f3(p.b,s+(1-s)*b,Y.ba(p.a,a.a,b))}if(a instanceof X.f3){s=Y.ba(p.a,a.a,b)
 r=K.oq(p.b,a.b,b)
 r.toString
 q=P.ar(p.c,a.c,b)
@@ -55236,14 +55237,14 @@ gf9:function(){var s=this.a.b
 return new V.a5(s,s,s,s)},
 bk:function(a,b){return new S.fu(this.a.bk(0,b))},
 dd:function(a,b){var s,r=this
-if(a instanceof S.fu)return new S.fu(Y.b9(a.a,r.a,b))
-if(a instanceof X.e3)return new S.f5(1-b,Y.b9(a.a,r.a,b))
-if(a instanceof X.aX){s=Y.b9(a.a,r.a,b)
+if(a instanceof S.fu)return new S.fu(Y.ba(a.a,r.a,b))
+if(a instanceof X.e3)return new S.f5(1-b,Y.ba(a.a,r.a,b))
+if(a instanceof X.aX){s=Y.ba(a.a,r.a,b)
 return new S.f6(t.m_.a(a.b),1-b,s)}return r.i6(a,b)},
 de:function(a,b){var s,r=this
-if(a instanceof S.fu)return new S.fu(Y.b9(r.a,a.a,b))
-if(a instanceof X.e3)return new S.f5(b,Y.b9(r.a,a.a,b))
-if(a instanceof X.aX){s=Y.b9(r.a,a.a,b)
+if(a instanceof S.fu)return new S.fu(Y.ba(r.a,a.a,b))
+if(a instanceof X.e3)return new S.f5(b,Y.ba(r.a,a.a,b))
+if(a instanceof X.aX){s=Y.ba(r.a,a.a,b)
 return new S.f6(t.m_.a(a.b),b,s)}return r.i7(a,b)},
 lM:function(a){return new S.fu(a==null?this.a:a)},
 em:function(a,b){var s=a.ghn()/2,r=P.cY()
@@ -55264,16 +55265,16 @@ gf9:function(){var s=this.a.b
 return new V.a5(s,s,s,s)},
 bk:function(a,b){return new S.f5(b,this.a.bk(0,b))},
 dd:function(a,b){var s,r,q=this
-if(a instanceof S.fu)return new S.f5(q.b*b,Y.b9(a.a,q.a,b))
+if(a instanceof S.fu)return new S.f5(q.b*b,Y.ba(a.a,q.a,b))
 if(a instanceof X.e3){s=q.b
-return new S.f5(s+(1-s)*(1-b),Y.b9(a.a,q.a,b))}if(a instanceof S.f5){s=Y.b9(a.a,q.a,b)
+return new S.f5(s+(1-s)*(1-b),Y.ba(a.a,q.a,b))}if(a instanceof S.f5){s=Y.ba(a.a,q.a,b)
 r=P.ar(a.b,q.b,b)
 r.toString
 return new S.f5(r,s)}return q.i6(a,b)},
 de:function(a,b){var s,r,q=this
-if(a instanceof S.fu)return new S.f5(q.b*(1-b),Y.b9(q.a,a.a,b))
+if(a instanceof S.fu)return new S.f5(q.b*(1-b),Y.ba(q.a,a.a,b))
 if(a instanceof X.e3){s=q.b
-return new S.f5(s+(1-s)*b,Y.b9(q.a,a.a,b))}if(a instanceof S.f5){s=Y.b9(q.a,a.a,b)
+return new S.f5(s+(1-s)*b,Y.ba(q.a,a.a,b))}if(a instanceof S.f5){s=Y.ba(q.a,a.a,b)
 r=P.ar(q.b,a.b,b)
 r.toString
 return new S.f5(r,s)}return q.i7(a,b)},
@@ -55313,18 +55314,18 @@ return new V.a5(s,s,s,s)},
 bk:function(a,b){var s=this.a.bk(0,b)
 return new S.f6(this.b.S(0,b),b,s)},
 dd:function(a,b){var s,r,q,p=this
-if(a instanceof S.fu)return new S.f6(p.b,p.c*b,Y.b9(a.a,p.a,b))
+if(a instanceof S.fu)return new S.f6(p.b,p.c*b,Y.ba(a.a,p.a,b))
 if(a instanceof X.aX){s=p.c
-return new S.f6(p.b,s+(1-s)*(1-b),Y.b9(a.a,p.a,b))}if(a instanceof S.f6){s=Y.b9(a.a,p.a,b)
+return new S.f6(p.b,s+(1-s)*(1-b),Y.ba(a.a,p.a,b))}if(a instanceof S.f6){s=Y.ba(a.a,p.a,b)
 r=K.kG(a.b,p.b,b)
 r.toString
 q=P.ar(a.c,p.c,b)
 q.toString
 return new S.f6(r,q,s)}return p.i6(a,b)},
 de:function(a,b){var s,r,q,p=this
-if(a instanceof S.fu)return new S.f6(p.b,p.c*(1-b),Y.b9(p.a,a.a,b))
+if(a instanceof S.fu)return new S.f6(p.b,p.c*(1-b),Y.ba(p.a,a.a,b))
 if(a instanceof X.aX){s=p.c
-return new S.f6(p.b,s+(1-s)*b,Y.b9(p.a,a.a,b))}if(a instanceof S.f6){s=Y.b9(p.a,a.a,b)
+return new S.f6(p.b,s+(1-s)*b,Y.ba(p.a,a.a,b))}if(a instanceof S.f6){s=Y.ba(p.a,a.a,b)
 r=K.kG(p.b,a.b,b)
 r.toString
 q=P.ar(p.c,a.c,b)
@@ -63629,7 +63630,7 @@ u1:function(a){return this.IH(null,a)},
 a2h:function(a){return this.IH(a,null)},
 bn:function(a){this.bF(a)
 if(this.a.c!==a.c)$.cS.z$.push(new U.afq(this,a))},
-gVp:function(){var s=F.ba(this.c,!0),r=s==null?null:s.db
+gVp:function(){var s=F.b9(this.c,!0),r=s==null?null:s.db
 switch(r==null?C.aU:r){case C.aU:return this.a.c
 case C.fW:return!0}return null},
 u:function(a,b){var s=this,r=null,q=s.a,p=q.c,o=p&&q.f!=null?q.f:C.GK,n=p&&q.r!=null?q.r:C.vJ
@@ -63662,7 +63663,7 @@ $1:function(a){var s=this.a
 return s.e&&a.c&&s.d},
 $S:100}
 U.afm.prototype={
-$1:function(a){var s=F.ba(this.a.c,!0),r=s==null?null:s.db
+$1:function(a){var s=F.b9(this.a.c,!0),r=s==null?null:s.db
 switch(r==null?C.aU:r){case C.aU:return a.c
 case C.fW:return!0}return null},
 $S:100}
@@ -65381,7 +65382,7 @@ a2=d.cW
 a3=d.L
 a4=d.W
 d=d.D
-a5=F.ba(a7.c,!1).b
+a5=F.b9(a7.c,!1).b
 return new T.oC(a7.cx,T.bQ(a6,new D.PU(s,q,r,a7.cy,a7.db,o,a7.f,!0,n,p,l,k,j,m,i,h,g,f,a6,c,b,e,C.as,b2,a7.gY8(),a7.gZO(),!0,a,a0,a1,a2,d,a3,a4,!0,a7,a5,a7.t,a7.a.k4,C.a9,a7.r),!1,a6,a6,a6,!1,!1,a6,a6,a6,a6,a6,a6,a6,a6,a6,a6,a9,b0,a6,a6,a6,a8,a6,a6,a6,a6,a6,a6),a6)},
 $C:"$2",
 $R:2,
@@ -67365,7 +67366,7 @@ bn:function(a){var s=this
 s.bF(a)
 if(s.r){s.a.toString
 a.toString}if(!J.c(s.a.c,a.c))s.JA()},
-a5K:function(){var s=F.ba(this.c,!0)
+a5K:function(){var s=F.b9(this.c,!0)
 s=s==null?null:s.Q
 this.x=s==null?(2&$.Ba.gxN().a)!==0:s},
 JA:function(){var s=this,r=s.Q,q=s.a.c,p=s.c
@@ -69560,7 +69561,7 @@ if(r.hb$.length===0)r.qa()
 return!1}r.To(a)
 return!0}}
 Q.Mr.prototype={
-u:function(a,b){var s,r,q,p,o,n,m=this,l=F.ba(b,!1).f,k=l.d
+u:function(a,b){var s,r,q,p,o,n,m=this,l=F.b9(b,!1).f,k=l.d
 k===0
 s=m.r
 r=Math.max(H.u(l.a),H.u(s.a))
@@ -70150,7 +70151,7 @@ a71:function(a,b,c,d){var s=this
 if(s.x)return new Q.MQ(c,b,s.dx,d,null)
 return Q.ayW(0,c,s.Q,C.oD,null,s.dx,b,d)},
 u:function(a,b){var s,r,q,p,o,n,m,l,k,j=this,i=j.LI(b),h=j.fr
-if(h==null){s=F.ba(b,!0)
+if(h==null){s=F.b9(b,!0)
 if(s!=null){r=s.f
 q=r.a7Y(0,0)
 p=r.a84(0,0)
@@ -71150,7 +71151,7 @@ return s===b.nF(t.GA)?c:L.kW(c,null,s.ch,s.Q,s.z,s.x,s.y,s.cy,s.cx)}}
 L.h7.prototype={
 u:function(a,b){var s,r,q,p,o,n,m,l,k=this,j=null,i=L.aws(b),h=k.e
 if(h==null||h.a)h=i.x.bW(h)
-s=F.ba(b,!0)
+s=F.b9(b,!0)
 s=s==null?j:s.cy
 if(s===!0)h=h.bW(C.Kz)
 s=k.r
@@ -71981,7 +71982,7 @@ var $async$uw=P.Q(function(a,b){if(a===1)return P.S(b,r)
 while(true)switch(s){case 0:s=p.r?3:4
 break
 case 3:o=p.a
-n=F.ba(o,!1).e
+n=F.b9(o,!1).e
 m=p.yL()
 l=t.z
 k=0
@@ -71990,7 +71991,7 @@ break}if(!(p.r&&k<1000)){s=6
 break}s=7
 return P.W(P.awY(C.D6,l),$async$uw)
 case 7:k+=170
-if(p.r)j=!F.ba(o,!1).e.n(0,n)||!J.c(p.yL(),m)
+if(p.r)j=!F.b9(o,!1).e.n(0,n)||!J.c(p.yL(),m)
 else j=!1
 if(j){q=!0
 s=1
@@ -72009,7 +72010,7 @@ p=q.k4
 l.y=p.a
 l.z=p.b
 p=T.eY(q.dk(0,null),C.l)
-s=F.ba(s,!1).a
+s=F.b9(s,!1).a
 o=l.yL()
 n=l.b
 m=l.Wv(n,q,r,s.b,o,o.f.e.d,p.b)
@@ -82893,7 +82894,7 @@ return H.a([P.e(["text","Does this soup kitchen also operate a food pantry?","ty
 $.aMR=function(){var s="happyPathResponse",r=t.i,q=t.X,p=t.z
 return H.a([P.e(["text","Is entrance clearly marked?","type","yesNoNa",s,H.a(["Yes"],r),"scoring",1,"databaseVar","EntranceClearlyMarked","databaseVarType","bool","databaseOptCom","EntranceClearlyMarkedComments","actionItem",u.f3],q,p),P.e(["text",u.v,"type","yesNoNa",s,H.a(["Yes"],r),"scoring",1,"databaseVar","OperationHoursDaysPosted","databaseVarType","bool","databaseOptCom","OperationHoursDaysPostedComments","actionItem",u.I],q,p),P.e(["text",u.ei,"type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","ServiceRequirementsPosted","databaseVarType","bool","databaseOptCom","ServiceRequirementsPostedComments","actionItem",u.bq],q,p),P.e(["text",u.bZ,"type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","GCFDContactInfoPosted","databaseVarType","bool","databaseOptCom","GCFDContactInfoPostedComments","actionItem",u.bH],q,p),P.e(["text","What types of public outreach and networking does the soup kitchen use to make the general public aware of their services? (Not applicable to homeless shelters)","type","fillIn","databaseVar","TypeOfOutreachUsed","databaseVarType","string"],q,p),P.e(["text","Is the 'And Justice for All' poster accesible to guests?","type","yesNoNa",s,H.a(["Yes","N/A"],r),"databaseVar","AndJusticeForAllPostersAccessible","databaseVarType","bool","databaseOptCom","AndJusticeForAllPostersAccessibleComments","actionItem",u.af],q,p)],t.k)}()
 $.aMS=function(){var s="happyPathResponse",r=t.i,q=t.X,p=t.z
-return H.a([P.e(["text","Are fees/donations/memberships required of the guests?","type","yesNo",s,H.a(["No"],r),"databaseVar","AreFeesRequired","databaseVarType","bool","databaseOptCom","AreFeesRequiredComments","actionItem","Ensure no fees / donations / memberships are collected / asked for during distribution"],q,p),P.e(["text",u.A,"type","yesNo",s,H.a(["No"],r),"scoring",5,"databaseVar","ActivitiesIndicatingFeesRequired","databaseVarType","bool","databaseOptCom","ActivitiesIndicatingFeesRequiredComments","actionItem",u.e],q,p),P.e(["text",u.c4,"type","yesNo",s,H.a(["No"],r),"databaseVar","ActivitiesOtherThanTEFAPDisrupting","databaseVarType","bool","databaseOptCom",u.Q,"actionItem","Ensure no other activities unrelated to TEFAP are conducted during distribution "],q,p),P.e(["text",u.dE,"type","yesNo",s,H.a(["Yes"],r),"scoring",5,"databaseVar","DistributionActivitiesAreAppropriate","databaseVarType","bool","databaseOptCom",u.t,"actionItem",u.h],q,p),P.e(["text","Guest disposition","type","fillIn","databaseVar","GuestDisposition","databaseVarType","string"],q,p),P.e(["text","Guests served during the site visit:","type","fillInNum","databaseVar","GuestServedDuringVisit","databaseVarType","int"],q,p),P.e(["text","Is an approved meal count tally used? What is it?","type","yesNo","databaseVar","ApprovedMealCountTally","databaseVarType","bool",s,H.a(["Yes"],r),"scoring",1,"databaseOptCom","ApprovedMealCountTallyComments","actionItem","Ensure approved meal count tally is utilized to keep track of meals served"],q,p),P.e(["text","What meal count tally is used?","type","dropDown","menuItems",H.a(["Select","Sign in Sheets","Tally Sheets","Plate count","N/A"],r),s,H.a(["Sign in Sheets","Tally Sheets","Plate count","N/A"],r),"databaseVar","MealCountTallyUsed","databaseVarType","string","databaseOptCom","MealCountTallyUsedComments"],q,p),P.e(["text","Guests served each month:","type","fillInNum","databaseVar","GuestServedEachMonth","databaseVarType","int"],q,p),P.e(["text","Volunteer disposition","type","fillIn","databaseVar","VolunteerDisposition","databaseVarType","string"],q,p),P.e(["text","# of Intake Volunteers","type","fillInNum","databaseVar","NumberOfIntakeVolunteers","databaseVarType","int"],q,p),P.e(["text","# of Meal Distribution volunteers:","type","fillInNum","databaseVar","NumberOfDistributionVolunteers","databaseVarType","int"],q,p),P.e(["text","Today's meal","type","fillIn","databaseVar","TodaysMeal","databaseVarType","string"],q,p),P.e(["text","Distribution style:","type","dropDown","hideNa","true","menuItems",H.a(["Select","Cafeteria","Restaurant","Other"],r),s,H.a(["Cafeteria","Restaurant","Other"],r),"databaseVar","DistributionStyle","databaseVarType","string","databaseOptCom","DistributionStyleOther"],q,p)],t.k)}()
+return H.a([P.e(["text","Are fees/donations/memberships required of the guests?","type","yesNo",s,H.a(["No"],r),"databaseVar","AreFeesRequired","databaseVarType","bool","databaseOptCom","AreFeesRequiredComments","actionItem","Ensure no fees / donations / memberships are collected / asked for during distribution"],q,p),P.e(["text",u.A,"type","yesNo",s,H.a(["No"],r),"scoring",5,"databaseVar","ActivitiesIndicatingFeesRequired","databaseVarType","bool","databaseOptCom","ActivitiesIndicatingFeesRequiredComments","actionItem",u.e],q,p),P.e(["text",u.c4,"type","yesNo",s,H.a(["No"],r),"databaseVar","ActivitiesOtherThanTEFAPDisrupting","databaseVarType","bool","databaseOptCom",u.Q,"actionItem","Ensure no other activities unrelated to TEFAP are conducted during distribution "],q,p),P.e(["text",u.dE,"type","yesNo",s,H.a(["Yes"],r),"scoring",5,"databaseVar","DistributionActivitiesAreAppropriate","databaseVarType","bool","databaseOptCom",u.t,"actionItem",u.h],q,p),P.e(["text","Guest disposition:","type","fillIn","databaseVar","GuestDisposition","databaseVarType","string"],q,p),P.e(["text","Guests served during the site visit:","type","fillInNum","databaseVar","GuestServedDuringVisit","databaseVarType","int"],q,p),P.e(["text","Is an approved meal count tally used? What is it?","type","yesNo","databaseVar","ApprovedMealCountTally","databaseVarType","bool",s,H.a(["Yes"],r),"scoring",1,"databaseOptCom","ApprovedMealCountTallyComments","actionItem","Ensure approved meal count tally is utilized to keep track of meals served"],q,p),P.e(["text","What meal count tally is used?","type","dropDown","menuItems",H.a(["Select","Sign in Sheets","Tally Sheets","Plate count","N/A"],r),s,H.a(["Sign in Sheets","Tally Sheets","Plate count","N/A"],r),"databaseVar","MealCountTallyUsed","databaseVarType","string","databaseOptCom","MealCountTallyUsedComments"],q,p),P.e(["text","Guests served each month:","type","fillInNum","databaseVar","GuestServedEachMonth","databaseVarType","int"],q,p),P.e(["text","Volunteer disposition","type","fillIn","databaseVar","VolunteerDisposition","databaseVarType","string"],q,p),P.e(["text","# of Intake Volunteers:","type","fillInNum","databaseVar","NumberOfIntakeVolunteers","databaseVarType","int"],q,p),P.e(["text","# of Meal Distribution Volunteers:","type","fillInNum","databaseVar","NumberOfDistributionVolunteers","databaseVarType","int"],q,p),P.e(["text","Today's meal","type","fillIn","databaseVar","TodaysMeal","databaseVarType","string"],q,p),P.e(["text","Distribution style:","type","dropDown","hideNa","true","menuItems",H.a(["Select","Cafeteria","Restaurant","Other"],r),s,H.a(["Cafeteria","Restaurant","Other"],r),"databaseVar","DistributionStyle","databaseVarType","string","databaseOptCom","DistributionStyleOther"],q,p)],t.k)}()
 $.aMT=function(){var s="happyPathResponse",r=t.i,q=t.X,p=t.z
 return H.a([P.e(["text","Are floors, pallets, and shelving clean?","type","yesNo",s,H.a(["Yes"],r),"scoring",5,"databaseVar","FloorsPalletsShelvesClean","databaseVarType","bool","databaseOptCom","FloorsPalletsShelvesCleanComments","actionItem",u.R],q,p),P.e(["text","Is storage area organized?","type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","StorageOrganized","databaseVarType","bool","databaseOptCom","StorageOrganizedComments","actionItem","Clean and organize storage area"],q,p),P.e(["text","Are pest proof containers utilized?","type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","PestProofContainersUsed","databaseVarType","bool","databaseOptCom","PestProofContainersUsedComments","actionItem",u.r],q,p),P.e(["text",u.fE,"type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","NonFoodItemsStoredSeparately","databaseVarType","bool","databaseOptCom","NonFoodItemsStoredSeparatelyComments","actionItem",u.cU],q,p),P.e(["text","Is dry food being rotated via FIFO?","type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","DryFoodRotatedFIFO","databaseVarType","bool","databaseOptCom","DryFoodRotatedFIFOComments","actionItem","Ensure the \u201cFirst in First Out\u201d method is followed for dry food"],q,p),P.e(["text","Is food 6 inches off floor?","type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","DryFoodSixInchesFromFloor","databaseVarType","bool","databaseOptCom","DryFoodSixInchesFromFloorComments","actionItem",u.cW],q,p),P.e(["text",u.cB,"type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","DryFoodKeptFromWalls","databaseVarType","bool","databaseOptCom","DryFoodKeptFromWallsComments","actionItem",u.ar],q,p),P.e(["text",u.y,"type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","ProperTempForDryFood","databaseVarType","bool","databaseOptCom","ProperTempForDryFoodComments","actionItem",u.j],q,p),P.e(["text",u.de,"type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","DryFoodStoredSecurely","databaseVarType","bool","databaseOptCom","DryFoodStoredSecurelyComments","actionItem",u.N],q,p),P.e(["text",u.cu,"type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","DryFoodClearlyMarked","databaseVarType","bool","databaseOptCom","DryFoodClearlyMarkedComments","actionItem",u.gV],q,p),P.e(["text",u.f8,"type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","StorageAreaOnlyForApprovedFood","databaseVarType","bool","databaseOptCom","StorageAreaOnlyForApprovedFoodComments","actionItem",u.eo],q,p),P.e(["text","Is equipment well maintained?","type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","DryEquipmentWellMaintained","databaseVarType","bool","databaseOptCom","DryEquipmentWellMaintainedComments","actionItem",u.d7],q,p),P.e(["text","Appropriate amount of food in inventory?","type","yesNo","databaseVar","AppropriateAmountOfFood","databaseVarType","bool","databaseOptCom","AppropriateAmountOfFoodComments"],q,p),P.e(["text","# of cases of dry food in inventory:","type","dropDown","hideNa","true","menuItems",H.a(["Select","1-25","26-50","51-150","150+"],r),"databaseVar","NumCasesOfDryFood","databaseVarType","string","databaseOptCom","NumCasesOfDryFoodComments"],q,p),P.e(["text","# of cases of meat in inventory:","type","dropDown","hideNa","true","menuItems",H.a(["Select","1-25","26-50","51-150","150+"],r),"databaseVar","NumCasesOfMeat","databaseVarType","string","databaseOptCom","NumCasesOfMeatComments"],q,p),P.e(["text",u.z,"type","dropDown","hideNa","true","menuItems",H.a(["Select","1-25","26-50","51-150","150+"],r),"databaseVar","NumCasesOfPerishableItems","databaseVarType","string","databaseOptCom","NumCasesOfPerishableItemsComments"],q,p),P.e(["text","Area 1: ","type","fillIn","databaseVar","AreaOneComments","databaseVarType","string"],q,p),P.e(["text","Area 2: ","type","fillIn","databaseVar","AreaTwoComments","databaseVarType","string"],q,p),P.e(["text","Area 3: ","type","fillIn","databaseVar","AreaThreeComments","databaseVarType","string"],q,p),P.e(["text","Area 4: ","type","fillIn","databaseVar","AreaFourComments","databaseVarType","string"],q,p)],t.k)}()
 $.aMU=function(){var s="happyPathResponse",r="Under 0 (acceptable for freezer)",q="0 \u2013 41 (acceptable for cooler)",p="Over 41 (Danger zone)",o="Temperature Unacceptable",n=t.i,m=t.X,l=t.z
@@ -82903,33 +82904,33 @@ return H.a([P.e(["text","Is a Food Service Sanitation Manager present?","type","
 $.aMW=function(){var s="happyPathResponse",r=t.i,q=t.X,p=t.z
 return H.a([P.e(["text","Plumbing issues?","type","issuesNoIssues",s,H.a(["No Issues"],r),"scoring",1,"databaseVar","PlumbingIssues","databaseVarType","bool","databaseOptCom","PlumbingIssuesComments","actionItem",u.q],q,p),P.e(["text","Sewage issues?","type","issuesNoIssues",s,H.a(["No Issues"],r),"scoring",1,"databaseVar","SewageIssues","databaseVarType","bool","databaseOptCom","SewageIssuesComments","actionItem",u.m],q,p),P.e(["text","Garbage and refuse disposal","type","issuesNoIssues",s,H.a(["No Issues"],r),"scoring",1,"databaseVar","GarbageRefusalDisposalIssues","databaseVarType","bool","databaseOptCom","GarbageRefusalDisposalIssuesComments","actionItem",u.o],q,p),P.e(["text",u.et,"type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","PestControlReport","databaseVarType","bool","databaseOptCom","PestControlReportComments","actionItem",u.O],q,p),P.e(["text","Name of Pest Control Company:","type","fillIn","databaseVar","PestControlCompany","databaseVarType","string"],q,p),P.e(["text","Last Pest Control Service Date:","type","date","databaseVar","PestControlServiceDate","databaseVarType","date","databaseOptCom","PestControlServiceDateComments"],q,p),P.e(["text","Current fire extinguisher","type","issuesNoIssues",s,H.a(["No Issues"],r),"databaseVar","CurrentFireExt","databaseVarType","bool","databaseOptCom","CurrentFireExtComments","actionItem",u.b],q,p),P.e(["text",u.a,"type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","BuildingWellSealed","databaseVarType","bool","databaseOptCom","BuildingWellSealedComments","actionItem",u.i],q,p),P.e(["text","Appropriate Lighting issues?","type","issuesNoIssues",s,H.a(["No Issues"],r),"scoring",1,"databaseVar","AppropriateLightingIssues","databaseVarType","bool","databaseOptCom","AppropriateLightingIssuesComments","actionItem",u.U],q,p),P.e(["text","Ventilation Issues?","type","issuesNoIssues",s,H.a(["No Issues"],r),"scoring",1,"databaseVar","VentilationIssues","databaseVarType","bool","databaseOptCom","VentilationIssuesComments","actionItem",u.E],q,p),P.e(["text",u.gL,"type","issuesNoIssues",s,H.a(["No Issues"],r),"scoring",1,"databaseVar","AccessToAllPertinentAreasIssues","databaseVarType","bool","databaseOptCom","AccessToAllPertinentAreasIssuesComments","actionItem",u.S],q,p),P.e(["text",u.dj,"type","yesNo",s,H.a(["No"],r),"scoring",5,"databaseVar","EvidenceOfPests","databaseVarType","bool","databaseOptCom","EvidenceOfPestsComments","actionItem",u.dw],q,p)],t.k)}()
 $.aMX=function(){var s=t.X,r=t.z
-return H.a([P.e(["text",u.bQ,"type","yesNo","databaseVar","DiscriminationComplaints","databaseVarType","bool","databaseOptCom","DiscriminationComplaintsComments"],s,r),P.e(["text",u.V,"type","yesNo","databaseVar",u.K,"databaseVarType","bool","databaseOptCom",u.T],s,r),P.e(["text",u.bP,"type","yesNoNa","databaseVar","DiscriminationComplaintForwardedToGCFD","databaseVarType","bool","databaseOptCom",u.dl],s,r),P.e(["text",u.e0,"type","fillIn","hideNa","true","databaseVar",u.w,"databaseVarType","string"],s,r),P.e(["text","Issues from last site visit?","type","fillIn","databaseVar","IssuesFromLastSiteVisit","databaseVarType","string"],s,r),P.e(["text","Distribution Site Staff Comments: ","type","fillIn","databaseVar","DistributionSiteStaffComments","databaseVarType","string"],s,r),P.e(["text","Food Depository Comments","type","fillIn","databaseVar","FoodDepositoryComments","databaseVarType","string"],s,r),P.e(["text","Donors","type","fillIn","databaseVarType","string","databaseVar","Donors"],s,r),P.e(["text","Date Tax Exemption Verified","type","date","databaseVarType","date","databaseVar","DateTaxExemptionVerified"],s,r),P.e(["text","Re-verified by:","type","fillIn","databaseVarType","string","databaseVar","ReVerifiedBy"],s,r),P.e(["text","GCFD Monitor","type","fillIn","databaseVarType","string","databaseVar","GCFDMonitor"],s,r),P.e(["text","Reviewed by","type","fillIn","databaseVarType","string","databaseVar","ReviewedBy"],s,r),P.e(["text","Findings Found:","type","yesNo","databaseVarType","bool","databaseVar","FindingsFound","databaseOptCom","FindingsFoundComments"],s,r)],t.k)}()
+return H.a([P.e(["text",u.bQ,"type","yesNo","databaseVar","DiscriminationComplaints","databaseVarType","bool","databaseOptCom","DiscriminationComplaintsComments"],s,r),P.e(["text",u.V,"type","yesNo","databaseVar",u.K,"databaseVarType","bool","databaseOptCom",u.T],s,r),P.e(["text",u.bP,"type","yesNoNa","databaseVar","DiscriminationComplaintForwardedToGCFD","databaseVarType","bool","databaseOptCom",u.dl],s,r),P.e(["text",u.e0,"type","fillIn","hideNa","true","databaseVar",u.w,"databaseVarType","string"],s,r),P.e(["text","Issues from last site visit?","type","fillIn","databaseVar","IssuesFromLastSiteVisit","databaseVarType","string"],s,r),P.e(["text","Distribution Site Staff Comments: ","type","fillIn","databaseVar","DistributionSiteStaffComments","databaseVarType","string"],s,r),P.e(["text","Food Depository Comments:","type","fillIn","databaseVar","FoodDepositoryComments","databaseVarType","string"],s,r),P.e(["text","Donors:","type","fillIn","databaseVarType","string","databaseVar","Donors"],s,r),P.e(["text","Date Tax Exemption Verified:","type","date","databaseVarType","date","databaseVar","DateTaxExemptionVerified"],s,r),P.e(["text","Re-verified by:","type","fillIn","databaseVarType","string","databaseVar","ReVerifiedBy"],s,r),P.e(["text","GCFD Monitor:","type","fillIn","databaseVarType","string","databaseVar","GCFDMonitor"],s,r),P.e(["text","Reviewed by:","type","fillIn","databaseVarType","string","databaseVar","ReviewedBy"],s,r),P.e(["text","Findings Found:","type","yesNo","databaseVarType","bool","databaseVar","FindingsFound","databaseOptCom","FindingsFoundComments"],s,r)],t.k)}()
 $.aOj=H.a([P.e(["filler","material"],t.X,t.z)],t.k)
 $.aOt=H.a([P.e(["filler","material"],t.X,t.z)],t.k)
 $.aOS=H.a([P.e(["filler","material"],t.X,t.z)],t.k)
 $.aNf=function(){var s=t.X,r=t.z
 return H.a([P.e(["text","Date of Visit:","type","display"],s,r),P.e(["text","Start Time:","type","display"],s,r),P.e(["text","Type of Visit:","type","display"],s,r),P.e(["text","Agency Name:","type","display"],s,r),P.e(["text","Agency/Program Number:","type","display"],s,r),P.e(["text","Site address:","type","display"],s,r),P.e(["text","GCFD Monitor:","type","display"],s,r),P.e(["text","Program Contact:","type","display"],s,r),P.e(["type","fillInEmailInterview"],s,r),P.e(["text","Email Contact:","type","fillInEmail","databaseVar","ContactEmail","databaseVarType","string"],s,r),P.e(["text","Person Interviewed:","type","fillInInterview","databaseVar","PersonInterviewed","databaseVarType","string"],s,r),P.e(["text","Program Operating Hours:","type","display"],s,r)],t.k)}()
 $.aMY=function(){var s="happyPathResponse",r=t.i,q=t.X,p=t.z
-return H.a([P.e(["text","Does Site ensure safe and sanitary conditions are followed? (wearing gloves)","type","yesNo",s,H.a(["Yes"],r),"databaseVar","EnsuresSafety","databaseOptCom","EnsuresSafetyComments","databaseVarType","bool","actionItem","Site must ensure safe and sanitary procedures are followed "],q,p),P.e(["text","Does Site distribute proper allocation of produce items, dry items and boxes if applicable?","type","yesNoNa",s,H.a(["Yes","Na"],r),"databaseVar","DistributesProperAllocation","databaseVarType","bool","databaseOptCom","DistributesProperAllocationComments","actionItem","Site must ensure proper allocations of produce, dry items and boxes are being conducted  "],q,p),P.e(["text","Does Site follow proper intake procedures? (checking ID, roster, etc.)","type","yesNo",s,H.a(["Yes"],r),"databaseVar","FollowsProperIntake","databaseVarType","bool","databaseOptCom","FollowsProperIntakeComments","actionItem","Site must ensure proper intake procedures are being followed "],q,p),P.e(["text","Does Site maintain proper program records on site?","type","yesNo",s,H.a(["Yes"],r),"databaseVar","MaintainsProperRecords","databaseVarType","bool","databaseOptCom","MaintainsProperRecordsComments","actionItem","Site must ensure program records are kept on site "],q,p),P.e(["text","Does Site have adequate storage for left over dry items or boxes, if applicable?","type","yesNoNa",s,H.a(["Yes","Na"],r),"databaseVar","HasAdequateStorage","databaseVarType","bool","databaseOptCom","HasAdequateStorageComments","actionItem","Site must ensure adequate storage is utilized for leftover dry items and boxes "],q,p),P.e(["text","Does Site have proper staff oversight of distribution?","type","yesNo",s,H.a(["Yes"],r),"databaseVar","HasProperOversight","databaseVarType","bool","databaseOptCom","HasProperOversightComments","actionItem","Site must ensure proper staff oversight during distribution "],q,p),P.e(["text","Does Site properly discard extra produce after distribution?","type","yesNo",s,H.a(["Yes"],r),"databaseVar","DiscardsExtraProduce","databaseVarType","bool","databaseOptCom","DiscardsExtraProduceComments","actionItem","Site must ensure extra produce is properly discarded "],q,p),P.e(["text","Is Distribution space clean and organized?","type","yesNo",s,H.a(["Yes"],r),"databaseVar","DistributionCleanOrganized","databaseVarType","bool","databaseOptCom","DistributionCleanOrganizedComments","actionItem","Site must keep Distribution space clean and organized "],q,p),P.e(["text","Is Site operating as a client choice model? (no pre-bagged items)","type","yesNo",s,H.a(["Yes"],r),"databaseVar","IsClientChoiceModel","databaseVarType","bool","databaseOptCom","IsClientChoiceModelComments","actionItem","Site must operate under the client choice model "],q,p),P.e(["text","Is Site distributing flyers advertising distribution date and time?","type","yesNo",s,H.a(["Yes"],r),"databaseVar","DistributesFlyers","databaseVarType","bool","databaseOptCom","DistributesFlyersComments","actionItem","Site must ensure flyers are being distributed "],q,p),P.e(["text","Is the Food Depository contact information posted at distribution?","type","yesNo",s,H.a(["Yes"],r),"databaseVar","DepositoryContactIsPosted","databaseVarType","bool","databaseOptCom","DepositoryContactIsPostedComments","actionItem","Site must post Food Depository contact information at distribution "],q,p),P.e(["text","Are only eligible clients participating in distribution?","type","yesNo",s,H.a(["Yes"],r),"databaseVar","OnlyEligibleClients","databaseVarType","bool","databaseOptCom","OnlyEligibleClientsComments","actionItem","Site must ensure only eligible clients participate in distribution "],q,p),P.e(["text","Are Proxy forms used when appropriate?","type","yesNoNa",s,H.a(["Yes","Na"],r),"databaseVar","ProxyFormsUsed","databaseVarType","bool","databaseOptCom","ProxyFormsUsedComments","actionItem","Site must ensure Proxy forms are used "],q,p),P.e(["text","Is Site soliciting donations, services and / or memberships?","type","yesNo",s,H.a(["No"],r),"databaseVar","DoesNotSolicit","databaseVarType","bool","databaseOptCom","DoesNotSolicitComments","actionItem","Site must ensure no soliciting of donations, services and or memberships are conducted"],q,p),P.e(["text","Are eligible volunteers receiving food at the end of the distribution?","type","yesNo",s,H.a(["Yes"],r),"databaseVar","VolunteersReceiveFood","databaseVarType","bool","databaseOptCom","VolunteersReceiveFoodComments","actionItem","Site must ensure eligible volunteers are receiving food at the end of distribution"],q,p),P.e(["text","Are monthly surveys up to date?","type","yesNo",s,H.a(["Yes"],r),"databaseVar","MonthlySurveysNotUpToDate","databaseVarType","bool","databaseOptCom","MonthlySurveysNotUpToDateComments","actionItem","Site must ensure monthly surveys are up to date"],q,p),P.e(["text","Is the Contact person information up to date?","type","yesNoNa",s,H.a(["Yes","Na"],r),"databaseVar","ContactPersonIsUpToDate","databaseVarType","bool","databaseOptCom","ContactPersonIsUpToDateComments","actionItem","Site must ensure Contact information is up to date"],q,p),P.e(["text","Other:","type","fillIn","databaseVar","OtherQuestion","databaseVarType","string"],q,p),P.e(["text","Does site provide resources? ","type","yesNo","databaseVar","SiteProvidesResources","databaseVarType","bool","databaseOptCom","SiteProvidesResourcesComments"],q,p),P.e(["text","Does site have a waiting area?  ","type","yesNo","databaseVar","HasWaitingArea","databaseVarType","bool","databaseOptCom","HasWaitingAreaComments"],q,p),P.e(["text","If Site has a waiting area, where:  ","type","fillIn","databaseVar","SiteWaitingAreaLocation","databaseVarType","string"],q,p),P.e(["text","Where is the distribution done?   ","type","fillIn","databaseVar","DistributionLocation","databaseVarType","string"],q,p),P.e(["text","Is the site media ready?   ","type","yesNo","databaseVar","SiteMediaIsReady","databaseVarType","bool","databaseOptCom","SiteMediaIsReadyComments"],q,p),P.e(["text","General Comments:   ","type","fillIn","databaseVar","Comments","databaseVarType","string"],q,p)],t.k)}()
+return H.a([P.e(["text","Does Site ensure safe and sanitary conditions are followed? (wearing gloves)","type","yesNo",s,H.a(["Yes"],r),"databaseVar","EnsuresSafety","databaseOptCom","EnsuresSafetyComments","databaseVarType","bool","actionItem","Site must ensure safe and sanitary procedures are followed "],q,p),P.e(["text","Does Site distribute proper allocation of produce items, dry items and boxes if applicable?","type","yesNoNa",s,H.a(["Yes","Na"],r),"databaseVar","DistributesProperAllocation","databaseVarType","bool","databaseOptCom","DistributesProperAllocationComments","actionItem","Site must ensure proper allocations of produce, dry items and boxes are being conducted  "],q,p),P.e(["text","Does Site follow proper intake procedures? (checking ID, roster, etc.)","type","yesNo",s,H.a(["Yes"],r),"databaseVar","FollowsProperIntake","databaseVarType","bool","databaseOptCom","FollowsProperIntakeComments","actionItem","Site must ensure proper intake procedures are being followed "],q,p),P.e(["text","Does Site maintain proper program records on site?","type","yesNo",s,H.a(["Yes"],r),"databaseVar","MaintainsProperRecords","databaseVarType","bool","databaseOptCom","MaintainsProperRecordsComments","actionItem","Site must ensure program records are kept on site "],q,p),P.e(["text","Does Site have adequate storage for left over dry items or boxes, if applicable?","type","yesNoNa",s,H.a(["Yes","Na"],r),"databaseVar","HasAdequateStorage","databaseVarType","bool","databaseOptCom","HasAdequateStorageComments","actionItem","Site must ensure adequate storage is utilized for leftover dry items and boxes "],q,p),P.e(["text","Does Site have proper staff oversight of distribution?","type","yesNo",s,H.a(["Yes"],r),"databaseVar","HasProperOversight","databaseVarType","bool","databaseOptCom","HasProperOversightComments","actionItem","Site must ensure proper staff oversight during distribution "],q,p),P.e(["text","Does Site properly discard extra produce after distribution?","type","yesNo",s,H.a(["Yes"],r),"databaseVar","DiscardsExtraProduce","databaseVarType","bool","databaseOptCom","DiscardsExtraProduceComments","actionItem","Site must ensure extra produce is properly discarded "],q,p),P.e(["text","Is Distribution space clean and organized?","type","yesNo",s,H.a(["Yes"],r),"databaseVar","DistributionCleanOrganized","databaseVarType","bool","databaseOptCom","DistributionCleanOrganizedComments","actionItem","Site must keep Distribution space clean and organized "],q,p),P.e(["text","Is Site operating as a client choice model? (no pre-bagged items)","type","yesNo",s,H.a(["Yes"],r),"databaseVar","IsClientChoiceModel","databaseVarType","bool","databaseOptCom","IsClientChoiceModelComments","actionItem","Site must operate under the client choice model"],q,p),P.e(["text","Is Site distributing flyers advertising distribution date and time?","type","yesNo",s,H.a(["Yes"],r),"databaseVar","DistributesFlyers","databaseVarType","bool","databaseOptCom","DistributesFlyersComments","actionItem","Site must ensure flyers are being distributed"],q,p),P.e(["text","Is the Food Depository contact information posted at distribution?","type","yesNo",s,H.a(["Yes"],r),"databaseVar","DepositoryContactIsPosted","databaseVarType","bool","databaseOptCom","DepositoryContactIsPostedComments","actionItem","Site must post Food Depository contact information at distribution"],q,p),P.e(["text","Are only eligible clients participating in distribution?","type","yesNo",s,H.a(["Yes"],r),"databaseVar","OnlyEligibleClients","databaseVarType","bool","databaseOptCom","OnlyEligibleClientsComments","actionItem","Site must ensure only eligible clients participate in distribution"],q,p),P.e(["text","Are Proxy forms used when appropriate?","type","yesNoNa",s,H.a(["Yes","Na"],r),"databaseVar","ProxyFormsUsed","databaseVarType","bool","databaseOptCom","ProxyFormsUsedComments","actionItem","Site must ensure Proxy forms are used "],q,p),P.e(["text","Is Site soliciting donations, services and / or memberships?","type","yesNo",s,H.a(["No"],r),"databaseVar","DoesNotSolicit","databaseVarType","bool","databaseOptCom","DoesNotSolicitComments","actionItem","Site must ensure no soliciting of donations, services and or memberships are conducted"],q,p),P.e(["text","Are eligible volunteers receiving food at the end of the distribution?","type","yesNo",s,H.a(["Yes"],r),"databaseVar","VolunteersReceiveFood","databaseVarType","bool","databaseOptCom","VolunteersReceiveFoodComments","actionItem","Site must ensure eligible volunteers are receiving food at the end of distribution"],q,p),P.e(["text","Are monthly surveys up to date?","type","yesNo",s,H.a(["Yes"],r),"databaseVar","MonthlySurveysNotUpToDate","databaseVarType","bool","databaseOptCom","MonthlySurveysNotUpToDateComments","actionItem","Site must ensure monthly surveys are up to date"],q,p),P.e(["text","Is the Contact person information up to date?","type","yesNoNa",s,H.a(["Yes","Na"],r),"databaseVar","ContactPersonIsUpToDate","databaseVarType","bool","databaseOptCom","ContactPersonIsUpToDateComments","actionItem","Site must ensure Contact information is up to date"],q,p),P.e(["text","Other:","type","fillIn","databaseVar","OtherQuestion","databaseVarType","string"],q,p),P.e(["text","Does site provide resources?","type","yesNo","databaseVar","SiteProvidesResources","databaseVarType","bool","databaseOptCom","SiteProvidesResourcesComments"],q,p),P.e(["text","Does site have a waiting area?","type","yesNo","databaseVar","HasWaitingArea","databaseVarType","bool","databaseOptCom","HasWaitingAreaComments"],q,p),P.e(["text","If Site has a waiting area, where:","type","fillIn","databaseVar","SiteWaitingAreaLocation","databaseVarType","string"],q,p),P.e(["text","Where is the distribution done?","type","fillIn","databaseVar","DistributionLocation","databaseVarType","string"],q,p),P.e(["text","Is the site media ready?","type","yesNo","databaseVar","SiteMediaIsReady","databaseVarType","bool","databaseOptCom","SiteMediaIsReadyComments"],q,p),P.e(["text","General Comments:","type","fillIn","databaseVar","Comments","databaseVarType","string"],q,p)],t.k)}()
 $.aOi=H.a([P.e(["filler","material"],t.X,t.z)],t.k)
 $.aOs=H.a([P.e(["filler","material"],t.X,t.z)],t.k)
 $.aOR=H.a([P.e(["filler","material"],t.X,t.z)],t.k)
 $.aNh=function(){var s=t.X,r=t.z
-return H.a([P.e(["text","Date of Visit:","type","display"],s,r),P.e(["text","Start Time:","type","display"],s,r),P.e(["text","Type of Visit:","type","display"],s,r),P.e(["text","Agency Name:","type","display"],s,r),P.e(["text","Agency/Program Number:","type","display"],s,r),P.e(["text","Site address:","type","display"],s,r),P.e(["text","GCFD Monitor:","type","display"],s,r),P.e(["text","Program Contact:","type","display"],s,r),P.e(["type","fillInEmailInterview"],s,r),P.e(["text","Email Contact:","type","fillInEmail","databaseVar","ContactEmail","databaseVarType","string"],s,r),P.e(["text","Person Interviewed:","type","fillInInterview","databaseVar","PersonInterviewed","databaseVarType","string"],s,r),P.e(["text","Program Operating Hours:","type","display"],s,r),P.e(["text","Service Area:","type","display"],s,r)],t.k)}()
+return H.a([P.e(["text","Date of Visit:","type","display"],s,r),P.e(["text","Start Time:","type","display"],s,r),P.e(["text","Type:of Visit:","type","display"],s,r),P.e(["text","Agency Name:","type","display"],s,r),P.e(["text","Agency/Program Number:","type","display"],s,r),P.e(["text","Site address:","type","display"],s,r),P.e(["text","GCFD Monitor:","type","display"],s,r),P.e(["text","Program Contact:","type","display"],s,r),P.e(["type","fillInEmailInterview"],s,r),P.e(["text","Email Contact:","type","fillInEmail","databaseVar","ContactEmail","databaseVarType","string"],s,r),P.e(["text","Person Interviewed:","type","fillInInterview","databaseVar","PersonInterviewed","databaseVarType","string"],s,r),P.e(["text","Program Operating Hours:","type","display"],s,r),P.e(["text","Service Area:","type","display"],s,r)],t.k)}()
 $.aMJ=function(){var s="happyPathResponse",r=t.X,q=t.z,p=t.i
-return H.a([P.e(["text","Did the Food Depository establish the service area?","type","yesNo","databaseVar","GCFDEstablishedServiceArea","databaseVarType","bool","databaseOptCom","GCFDEstablishedServiceAreaComments"],r,q),P.e(["text","Does pantry serve outside this service area?","type","yesNo","databaseVar","PantryServesOutsideServiceArea","databaseVarType","bool","databaseOptCom","PantryServesOutsideServiceAreaComments"],r,q),P.e(["text","If yes, how many and from where do guests travel?","type","fillIn","databaseVar","HowManyGuestsTravel","databaseVarType","string"],r,q),P.e(["text","How often can a guest receive food from the pantry?","type","dropDown","menuItems",H.a(["Select","1x per week","2x per Month","1x per Month","Other","N/A"],p),s,H.a(["1x per week","2x per Month","1x per Month","Other","N/A"],p),"databaseVar","HowOftenGuestsReceiveFood","databaseVarType","string","databaseOptCom","HowOftenGuestsReceiveFoodComments"],r,q),P.e(["text","Does the pantry allow guests to receive food at least once every 30 days?","type","yesNo","databaseVar","PantryAllowsFoodAtLeast30Days","databaseVarType","bool","databaseOptCom","PantryAllowsFoodAtLeast30DaysComments"],r,q),P.e(["text","Are referrals from an outside agency required to receive food?","type","yesNo","databaseVar","ReferralsRequired","databaseVarType","bool","databaseOptCom","ReferralsRequiredComments"],r,q),P.e(["text","Are appointments required to receive food?","type","yesNo","databaseVar","AppointmentsRequired","databaseVarType","bool","databaseOptCom","AppointmentsRequiredComments"],r,q),P.e(["text","Does the pantry require any documentation?","type","yesNo","databaseVar","DocumentationRequired","databaseVarType","bool","databaseOptCom","DocumentationRequiredComments"],r,q),P.e(["text","Describe the types of documentation requested and the purpose (only allowed to verify residency and identity):","type","fillIn","databaseVar","DocumentationDescription","databaseVarType","string"],r,q),P.e(["text","Does this pantry operate under the rural exemption?","type","yesNo","databaseVar","UnderRuralExemption","databaseVarType","bool","databaseOptCom","UnderRuralExemptionComments"],r,q),P.e(["text","Does this food pantry also operate a soup kitchen?","type","yesNo","databaseVar","HasSoupKitchen","databaseVarType","bool","databaseOptCom","HasSoupKitchenComments"],r,q),P.e(["text","If yes, is the food properly separated and tracked for two programs?","type","yesNoNa",s,H.a(["Yes","N/A"],p),"scoring",1,"databaseVar","FoodProperlySeperatedAndTracked","databaseVarType","bool","databaseOptCom","FoodProperlySeperatedAndTrackedComments","actionItem",u.hc],r,q),P.e(["text",u.dd,"type","yesNo","databaseVar","OnFoodRescueAgencyEnabled","databaseVarType","bool","databaseOptCom","OnFoodRescueAgencyEnabledComments"],r,q),P.e(["text","Food Service Sanitation Manager Certificates","type","fillIn","databaseVar","FoodServiceSanitationManagerCerts","databaseVarType","string"],r,q),P.e(["text","Remove:","type","fillIn","databaseVar","RemoveField","databaseVarType","string"],r,q),P.e(["text","Last Order Date:","type","date","databaseVar","LastOrderDate","databaseVarType","date","databaseOptCom","LastOrderDateComments"],r,q),P.e(["text",u.ez,"type","dropDown","hideNa","true","menuItems",H.a(["Select","1","2","3","4","5","Other"],p),"databaseVar","NumberOfDeliveriesPerMonth","databaseOptCom","NumberOfDeliveriesPerMonthComments","databaseVarType","string"],r,q),P.e(["text",u.cg,"type","yesNo",s,H.a(["Yes"],p),"scoring",5,"databaseVar","OrderHasBeenPlacedInLastMonth","databaseVarType","bool","databaseOptCom","OrderHasBeenPlacedInLastMonthComments","actionItem",u.cK],r,q),P.e(["text","Has an online intake system been used in the past month?","type","yesNo",s,H.a(["Yes"],p),"scoring",1,"databaseVar","IntakeSystemUsedInLastMonth","databaseVarType","bool","databaseOptCom","IntakeSystemUsedInLastMonthComments","actionItem","Ensure appropriate intake and meal count system is utilized"],r,q),P.e(["text",u.ai,"type","dropDown","hideNa","true","menuItems",H.a(["Select","Yes","No","Closed Program"],p),"databaseVar","AgencyLocatorAccurate","databaseVarType","string","databaseOptCom","AgencyLocatorAccurateComments"],r,q)],t.k)}()
+return H.a([P.e(["text","Did the Food Depository establish the service area?","type","yesNo","databaseVar","GCFDEstablishedServiceArea","databaseVarType","bool","databaseOptCom","GCFDEstablishedServiceAreaComments"],r,q),P.e(["text","Does pantry serve outside this service area?","type","yesNo","databaseVar","PantryServesOutsideServiceArea","databaseVarType","bool","databaseOptCom","PantryServesOutsideServiceAreaComments"],r,q),P.e(["text","If yes, how many and from where do guests travel?","type","fillIn","databaseVar","HowManyGuestsTravel","databaseVarType","string"],r,q),P.e(["text","How often can a guest receive food from the pantry?","type","dropDown","menuItems",H.a(["Select","1x per week","2x per Month","1x per Month","Other","N/A"],p),s,H.a(["1x per week","2x per Month","1x per Month","Other","N/A"],p),"databaseVar","HowOftenGuestsReceiveFood","databaseVarType","string","databaseOptCom","HowOftenGuestsReceiveFoodComments"],r,q),P.e(["text","Does the pantry allow guests to receive food at least once every 30 days?","type","yesNo","databaseVar","PantryAllowsFoodAtLeast30Days","databaseVarType","bool","databaseOptCom","PantryAllowsFoodAtLeast30DaysComments"],r,q),P.e(["text","Are referrals from an outside agency required to receive food?","type","yesNo","databaseVar","ReferralsRequired","databaseVarType","bool","databaseOptCom","ReferralsRequiredComments"],r,q),P.e(["text","Are appointments required to receive food?","type","yesNo","databaseVar","AppointmentsRequired","databaseVarType","bool","databaseOptCom","AppointmentsRequiredComments"],r,q),P.e(["text","Does the pantry require any documentation?","type","yesNo","databaseVar","DocumentationRequired","databaseVarType","bool","databaseOptCom","DocumentationRequiredComments"],r,q),P.e(["text","Describe the types of documentation requested and the purpose (only allowed to verify residency and identity):","type","fillIn","databaseVar","DocumentationDescription","databaseVarType","string"],r,q),P.e(["text","Does this pantry operate under the rural exemption?","type","yesNo","databaseVar","UnderRuralExemption","databaseVarType","bool","databaseOptCom","UnderRuralExemptionComments"],r,q),P.e(["text","Does this food pantry also operate a soup kitchen?","type","yesNo","databaseVar","HasSoupKitchen","databaseVarType","bool","databaseOptCom","HasSoupKitchenComments"],r,q),P.e(["text","If yes, is the food properly separated and tracked for two programs?","type","yesNoNa",s,H.a(["Yes","N/A"],p),"scoring",1,"databaseVar","FoodProperlySeperatedAndTracked","databaseVarType","bool","databaseOptCom","FoodProperlySeperatedAndTrackedComments","actionItem",u.hc],r,q),P.e(["text",u.dd,"type","yesNo","databaseVar","OnFoodRescueAgencyEnabled","databaseVarType","bool","databaseOptCom","OnFoodRescueAgencyEnabledComments"],r,q),P.e(["text","Food Service Sanitation Manager Certificates:","type","fillIn","databaseVar","FoodServiceSanitationManagerCerts","databaseVarType","string"],r,q),P.e(["text","Remove:","type","fillIn","databaseVar","RemoveField","databaseVarType","string"],r,q),P.e(["text","Last Order Date:","type","date","databaseVar","LastOrderDate","databaseVarType","date","databaseOptCom","LastOrderDateComments"],r,q),P.e(["text",u.ez,"type","dropDown","hideNa","true","menuItems",H.a(["Select","1","2","3","4","5","Other"],p),"databaseVar","NumberOfDeliveriesPerMonth","databaseOptCom","NumberOfDeliveriesPerMonthComments","databaseVarType","string"],r,q),P.e(["text",u.cg,"type","yesNo",s,H.a(["Yes"],p),"scoring",5,"databaseVar","OrderHasBeenPlacedInLastMonth","databaseVarType","bool","databaseOptCom","OrderHasBeenPlacedInLastMonthComments","actionItem",u.cK],r,q),P.e(["text","Has an online intake system been used in the past month?","type","yesNo",s,H.a(["Yes"],p),"scoring",1,"databaseVar","IntakeSystemUsedInLastMonth","databaseVarType","bool","databaseOptCom","IntakeSystemUsedInLastMonthComments","actionItem","Ensure appropriate intake and meal count system is utilized"],r,q),P.e(["text",u.ai,"type","dropDown","hideNa","true","menuItems",H.a(["Select","Yes","No","Closed Program"],p),"databaseVar","AgencyLocatorAccurate","databaseVarType","string","databaseOptCom","AgencyLocatorAccurateComments"],r,q)],t.k)}()
 $.aMK=function(){var s="happyPathResponse",r=t.i,q=t.X,p=t.z
 return H.a([P.e(["text","Is entrance clearly marked?","type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","EntranceClearlyMarked","databaseVarType","bool","databaseOptCom","EntranceClearlyMarkedComments","actionItem",u.f3],q,p),P.e(["text",u.v,"type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","OperationHoursDaysPosted","databaseVarType","bool","databaseOptCom","OperationHoursDaysPostedComments","actionItem",u.I],q,p),P.e(["text",u.ei,"type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","ServiceRequirementsPosted","databaseVarType","bool","databaseOptCom","ServiceRequirementsPostedComments","actionItem",u.bq],q,p),P.e(["text",u.bZ,"type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","GCFDContactInfoPosted","databaseVarType","bool","databaseOptCom","GCFDContactInfoPostedComments","actionItem",u.bH],q,p),P.e(["text","What types of public outreach and networking does the pantry use to make the general public aware of their services?","type","fillIn","databaseVar","TypeOfOutreachUsed","databaseVarType","string"],q,p),P.e(["text","Are TEFAP posters accessible to guests?(Ex: Income Eligibility, Prohibited Activities, 'And Justice for All')","type","yesNoNa",s,H.a(["Yes","N/A"],r),"scoring",1,"databaseVar","TEFAPPostersAccessible","databaseVarType","bool","databaseOptCom","TEFAPPostersAccessibleComments","actionItem",u.af],q,p)],t.k)}()
 $.aML=function(){var s="happyPathResponse",r=t.i,q=t.X,p=t.z
-return H.a([P.e(["text",u.A,"type","yesNo",s,H.a(["No"],r),"scoring",5,"databaseVar","ActivitiesIndicatingFeesRequired","databaseVarType","bool","databaseOptCom","ActivitiesIndicatingFeesRequiredComments","actionItem",u.e],q,p),P.e(["text","Is an online intake system being utilized?","type","yesNo",s,H.a(["Yes"],r),"scoring",5,"databaseVar","OnlineIntakeUtilized","databaseVarType","bool","databaseOptCom","OnlineIntakeUtilizedComments","actionItem","Appropriate intake and meal count system should be utilized. "],q,p),P.e(["text","If it is not being utilized, are DHS signature documents used?","type","yesNoNa",s,H.a(["Yes","N/A"],r),"scoring",1,"databaseVar","DHSSignatureDocsUsed","databaseVarType","bool","databaseOptCom","DHSSignatureDocsUsedComments","actionItem","Ensure DHS document is utilized during intake"],q,p),P.e(["text","Does the guest sign his/her name upon receipt?","type","yesNoNa",s,H.a(["Yes","N/A"],r),"scoring",1,"databaseVar","GuestSignsName","databaseVarType","bool","databaseOptCom","GuestSignsNameComments","actionItem","Ensure guests signature is obtained during intake"],q,p),P.e(["text","Is the address recorded upon receipt?","type","yesNo",s,H.a(["Yes"],r),"databaseVar","AddressRecordedUponReceipt","databaseVarType","bool","databaseOptCom","AddressRecordedUponReceiptComments","actionItem","Ensure address is recorded when applicable"],q,p),P.e(["text","Is the household size recorded upon receipt?","type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","HouseholdSizeRecordedUponReceipt","databaseVarType","bool","databaseOptCom","HouseholdSizeRecordedUponReceiptComments","actionItem","Ensure household size is recorded during intake"],q,p),P.e(["text","Does the pantry have the guest sign even if only privately donated food is received?","type","yesNo","databaseVar","GuestSignsEvenForPrivateDonation","databaseVarType","bool","databaseOptCom","GuestSignsEvenForPrivateDonationComments"],q,p),P.e(["text","Are original DHS signature documents and surveys submitted to the Food Depository monthly?","type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","OriginalDHSSigDocsSubmitted","databaseVarType","bool","databaseOptCom","OriginalDHSSigDocsSubmittedComments","actionItem","Ensure original DHS signature documents and surveys are submitted to the Food Depository "],q,p),P.e(["text","Is the TEFAP manual accessible to pantry staff and/or volunteers?","type","yesNoNa",s,H.a(["Yes","N/A"],r),"scoring",1,"databaseVar","TEFAPManualAccessible","databaseVarType","bool","databaseOptCom","TEFAPManualAccessibleComments","actionItem","When the TEFAP manual is not accessible to staff and volunteers, please explain what action takes place to remedy this. (Ex: a copy will be emailed to program contact)"],q,p),P.e(["text","Are proxy forms used?","type","yesNoNa",s,H.a(["Yes","N/A"],r),"scoring",1,"databaseVar","ProxyFormsUsed","databaseVarType","bool","databaseOptCom","ProxyFormsUsedComments","actionItem","Please utilize proxy forms when appropriate"],q,p),P.e(["text","If yes, do they contain the original signature of the recipient getting food?","type","yesNoNa",s,H.a(["Yes","N/A"],r),"scoring",1,"databaseVar","ProxyFormsOriginalSignature","databaseVarType","bool","databaseOptCom","ProxyFormsOriginalSignatureComments","actionItem","Ensure original signatures are collected on Proxy forms"],q,p),P.e(["text","Does the proxy sign the proxy form in the presence of pantry personnel?","type","yesNoNa","databaseVar","ProxySignedInPresenceOfPantryPersonnel","databaseVarType","bool","databaseOptCom",u.bN],q,p),P.e(["text","Do pantry personnel sign the proxy form at the time of distribution?","type","yesNoNa","databaseVar","ProxyFormSignedAtTimeOfDistribution","databaseVarType","bool","databaseOptCom",u.bz],q,p),P.e(["text","Are TANF commodities being distributed?","type","yesNo","databaseVar","TANFCommoditiesDistributed","databaseVarType","bool","databaseOptCom","TANFCommoditiesDistributedComments"],q,p),P.e(["text","If yes, do guests complete the required TANF information?","type","yesNoNa",s,H.a(["Yes","N/A"],r),"scoring",1,"databaseVar","GuestsCompleteRequiredTANFInfo","databaseVarType","bool","databaseOptCom","GuestsCompleteRequiredTANFInfoComments","actionItem","Ensure that TANF information is completed"],q,p),P.e(["text","Are guests without children in the household completing TANF information?","type","yesNoNa",s,H.a(["Yes","N/A"],r),"scoring",1,"databaseVar","GuestsWithoutChildrenCompletingTANFInfo","databaseVarType","bool","databaseOptCom",u.x,"actionItem","Ensure guests without children are completing the TANF information"],q,p),P.e(["text","Technology being used:\t#of Tablets:","type","fillInNum","databaseVar","NumberOfTabletsBeingUsed","databaseVarType","int"],q,p),P.e(["text","#of Computers:","type","fillInNum","databaseVar","NumberOfComputersBeingUsed","databaseVarType","int"],q,p),P.e(["text","Guest disposition","type","fillIn","databaseVar","GuestDisposition","databaseVarType","string"],q,p),P.e(["text","Guests served during site visit:","type","fillInNum","databaseVar","GuestsServedDuringVisit","databaseVarType","int"],q,p),P.e(["text","Guests served each month:","type","fillInNum","databaseVar","GuestServedEachMonth","databaseVarType","int"],q,p),P.e(["text","Volunteer disposition:","type","fillIn","databaseVar","VolunteerDisposition","databaseVarType","string"],q,p),P.e(["text","# of Intake Volunteers","type","fillInNum","databaseVar","NumberOfIntakeVolunteers","databaseVarType","int"],q,p),P.e(["text","# of Distribution volunteers:","type","fillInNum","databaseVar","NumberOfDistributionVolunteers","databaseVarType","int"],q,p),P.e(["text","How does the pantry recruit volunteers?","type","fillIn","databaseVar","HowDoesPantryRecruitVolunteers","databaseVarType","string"],q,p),P.e(["text",u.c4,"type","yesNo",s,H.a(["No"],r),"scoring",1,"databaseVar","ActivitiesOtherThanTEFAPDisrupting","databaseVarType","bool","databaseOptCom",u.Q,"actionItem","Ensure no other activities unrelated to TEFAP are conducted during distribution"],q,p),P.e(["text",u.dE,"type","yesNo",s,H.a(["Yes"],r),"scoring",5,"databaseVar","DistributionActivitiesAreAppropriate","databaseVarType","bool","databaseOptCom",u.t,"actionItem",u.h],q,p),P.e(["text","Distribution style: (if not client choice, indicate why in the comments","type","dropDown","hideNa","true","menuItems",H.a(["Select","Client Choice","Prepacked","Partial Client Choice"],r),"databaseVar","DistributionStyle","databaseVarType","string","databaseOptCom","DistributionStyleComments"],q,p)],t.k)}()
+return H.a([P.e(["text",u.A,"type","yesNo",s,H.a(["No"],r),"scoring",5,"databaseVar","ActivitiesIndicatingFeesRequired","databaseVarType","bool","databaseOptCom","ActivitiesIndicatingFeesRequiredComments","actionItem",u.e],q,p),P.e(["text","Is an online intake system being utilized?","type","yesNo",s,H.a(["Yes"],r),"scoring",5,"databaseVar","OnlineIntakeUtilized","databaseVarType","bool","databaseOptCom","OnlineIntakeUtilizedComments","actionItem","Appropriate intake and meal count system should be utilized. "],q,p),P.e(["text","If it is not being utilized, are DHS signature documents used?","type","yesNoNa",s,H.a(["Yes","N/A"],r),"scoring",1,"databaseVar","DHSSignatureDocsUsed","databaseVarType","bool","databaseOptCom","DHSSignatureDocsUsedComments","actionItem","Ensure DHS document is utilized during intake"],q,p),P.e(["text","Does the guest sign his/her name upon receipt?","type","yesNoNa",s,H.a(["Yes","N/A"],r),"scoring",1,"databaseVar","GuestSignsName","databaseVarType","bool","databaseOptCom","GuestSignsNameComments","actionItem","Ensure guests signature is obtained during intake"],q,p),P.e(["text","Is the address recorded upon receipt?","type","yesNo",s,H.a(["Yes"],r),"databaseVar","AddressRecordedUponReceipt","databaseVarType","bool","databaseOptCom","AddressRecordedUponReceiptComments","actionItem","Ensure address is recorded when applicable"],q,p),P.e(["text","Is the household size recorded upon receipt?","type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","HouseholdSizeRecordedUponReceipt","databaseVarType","bool","databaseOptCom","HouseholdSizeRecordedUponReceiptComments","actionItem","Ensure household size is recorded during intake"],q,p),P.e(["text","Does the pantry have the guest sign even if only privately donated food is received?","type","yesNo","databaseVar","GuestSignsEvenForPrivateDonation","databaseVarType","bool","databaseOptCom","GuestSignsEvenForPrivateDonationComments"],q,p),P.e(["text","Are original DHS signature documents and surveys submitted to the Food Depository monthly?","type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","OriginalDHSSigDocsSubmitted","databaseVarType","bool","databaseOptCom","OriginalDHSSigDocsSubmittedComments","actionItem","Ensure original DHS signature documents and surveys are submitted to the Food Depository "],q,p),P.e(["text","Is the TEFAP manual accessible to pantry staff and/or volunteers?","type","yesNoNa",s,H.a(["Yes","N/A"],r),"scoring",1,"databaseVar","TEFAPManualAccessible","databaseVarType","bool","databaseOptCom","TEFAPManualAccessibleComments","actionItem","When the TEFAP manual is not accessible to staff and volunteers, please explain what action takes place to remedy this. (Ex: a copy will be emailed to program contact)"],q,p),P.e(["text","Are proxy forms used?","type","yesNoNa",s,H.a(["Yes","N/A"],r),"scoring",1,"databaseVar","ProxyFormsUsed","databaseVarType","bool","databaseOptCom","ProxyFormsUsedComments","actionItem","Please utilize proxy forms when appropriate"],q,p),P.e(["text","If yes, do they contain the original signature of the recipient getting food?","type","yesNoNa",s,H.a(["Yes","N/A"],r),"scoring",1,"databaseVar","ProxyFormsOriginalSignature","databaseVarType","bool","databaseOptCom","ProxyFormsOriginalSignatureComments","actionItem","Ensure original signatures are collected on Proxy forms"],q,p),P.e(["text","Does the proxy sign the proxy form in the presence of pantry personnel?","type","yesNoNa","databaseVar","ProxySignedInPresenceOfPantryPersonnel","databaseVarType","bool","databaseOptCom",u.bN],q,p),P.e(["text","Do pantry personnel sign the proxy form at the time of distribution?","type","yesNoNa","databaseVar","ProxyFormSignedAtTimeOfDistribution","databaseVarType","bool","databaseOptCom",u.bz],q,p),P.e(["text","Are TANF commodities being distributed?","type","yesNo","databaseVar","TANFCommoditiesDistributed","databaseVarType","bool","databaseOptCom","TANFCommoditiesDistributedComments"],q,p),P.e(["text","If yes, do guests complete the required TANF information?","type","yesNoNa",s,H.a(["Yes","N/A"],r),"scoring",1,"databaseVar","GuestsCompleteRequiredTANFInfo","databaseVarType","bool","databaseOptCom","GuestsCompleteRequiredTANFInfoComments","actionItem","Ensure that TANF information is completed"],q,p),P.e(["text","Are guests without children in the household completing TANF information?","type","yesNoNa",s,H.a(["Yes","N/A"],r),"scoring",1,"databaseVar","GuestsWithoutChildrenCompletingTANFInfo","databaseVarType","bool","databaseOptCom",u.x,"actionItem","Ensure guests without children are completing the TANF information"],q,p),P.e(["text","Technology being used:\t#of Tablets:","type","fillInNum","databaseVar","NumberOfTabletsBeingUsed","databaseVarType","int"],q,p),P.e(["text","#of Computers:","type","fillInNum","databaseVar","NumberOfComputersBeingUsed","databaseVarType","int"],q,p),P.e(["text","Guest disposition:","type","fillIn","databaseVar","GuestDisposition","databaseVarType","string"],q,p),P.e(["text","Guests served during site visit:","type","fillInNum","databaseVar","GuestsServedDuringVisit","databaseVarType","int"],q,p),P.e(["text","Guests served each month:","type","fillInNum","databaseVar","GuestServedEachMonth","databaseVarType","int"],q,p),P.e(["text","Volunteer disposition:","type","fillIn","databaseVar","VolunteerDisposition","databaseVarType","string"],q,p),P.e(["text","# of Intake Volunteers:","type","fillInNum","databaseVar","NumberOfIntakeVolunteers","databaseVarType","int"],q,p),P.e(["text","# of Distribution Volunteers:","type","fillInNum","databaseVar","NumberOfDistributionVolunteers","databaseVarType","int"],q,p),P.e(["text","How does the pantry recruit volunteers?","type","fillIn","databaseVar","HowDoesPantryRecruitVolunteers","databaseVarType","string"],q,p),P.e(["text",u.c4,"type","yesNo",s,H.a(["No"],r),"scoring",1,"databaseVar","ActivitiesOtherThanTEFAPDisrupting","databaseVarType","bool","databaseOptCom",u.Q,"actionItem","Ensure no other activities unrelated to TEFAP are conducted during distribution"],q,p),P.e(["text",u.dE,"type","yesNo",s,H.a(["Yes"],r),"scoring",5,"databaseVar","DistributionActivitiesAreAppropriate","databaseVarType","bool","databaseOptCom",u.t,"actionItem",u.h],q,p),P.e(["text","Distribution style: (if not client choice, indicate why in the comments:","type","dropDown","hideNa","true","menuItems",H.a(["Select","Client Choice","Prepacked","Partial Client Choice"],r),"databaseVar","DistributionStyle","databaseVarType","string","databaseOptCom","DistributionStyleComments"],q,p)],t.k)}()
 $.aMM=function(){var s="happyPathResponse",r=t.i,q=t.X,p=t.z
 return H.a([P.e(["text","Are floors, pallets, and shelving clean?","type","yesNo",s,H.a(["Yes"],r),"scoring",5,"databaseVar","FloorsPalletsShelvesClean","databaseVarType","bool","databaseOptCom","FloorsPalletsShelvesCleanComments","actionItem",u.R],q,p),P.e(["text","Is storage area organized?","type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","StorageOrganized","databaseVarType","bool","databaseOptCom","StorageOrganizedComments","actionItem","Clean and organize storage area"],q,p),P.e(["text","Are pest proof containers utilized?","type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","PestProofContainersUsed","databaseVarType","bool","databaseOptCom","PestProofContainersUsedComments","actionItem",u.r],q,p),P.e(["text",u.fE,"type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","NonFoodItemsStoredSeparately","databaseVarType","bool","databaseOptCom","NonFoodItemsStoredSeparatelyComments","actionItem",u.cU],q,p),P.e(["text","Is dry food being rotated via FIFO?","type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","DryFoodRotatedFIFO","databaseVarType","bool","databaseOptCom","DryFoodRotatedFIFOComments","actionItem","Ensure the \u201cFirst in First Out\u201d method is followed with dry food"],q,p),P.e(["text","Is food 6 inches off floor?","type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","DryFoodSixInchesFromFloor","databaseVarType","bool","databaseOptCom","DryFoodSixInchesFromFloorComments","actionItem",u.cW],q,p),P.e(["text",u.cB,"type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","DryFoodKeptFromWalls","databaseVarType","bool","databaseOptCom","DryFoodKeptFromWallsComments","actionItem",u.ar],q,p),P.e(["text",u.y,"type","yesNo",s,H.a(["Yes"],r),"databaseVar","ProperTempForDryFood","databaseVarType","bool","databaseOptCom","ProperTempForDryFoodComments","actionItem",u.j],q,p),P.e(["text",u.de,"type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","DryFoodStoredSecurely","databaseVarType","bool","databaseOptCom","DryFoodStoredSecurelyComments","actionItem",u.N],q,p),P.e(["text",u.cu,"type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","DryFoodClearlyMarked","databaseVarType","bool","databaseOptCom","DryFoodClearlyMarkedComments","actionItem",u.gV],q,p),P.e(["text",u.f8,"type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","StorageAreaOnlyForApprovedFood","databaseVarType","bool","databaseOptCom","StorageAreaOnlyForApprovedFoodComments","actionItem",u.eo],q,p),P.e(["text","Is equipment well maintained?","type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","DryEquipmentWellMaintained","databaseVarType","bool","databaseOptCom","DryEquipmentWellMaintainedComments","actionItem",u.d7],q,p),P.e(["text","Appropriate amount of food in inventory?","type","yesNo","databaseVar","AppropriateAmountOfFood","databaseVarType","bool","databaseOptCom","AppropriateAmountOfFoodComments"],q,p),P.e(["text","# of cases of dry food in inventory:","type","dropDown","hideNa","true","menuItems",H.a(["Select","1-25","26-50","51-150","150+"],r),"databaseVar","NumCasesOfDryFood","databaseVarType","string","databaseOptCom","NumCasesOfDryFoodComments"],q,p),P.e(["text","# of cases of meat in inventory:","type","dropDown","hideNa","true","menuItems",H.a(["Select","1-25","26-50","51-150","150+"],r),"databaseVar","NumCasesOfMeat","databaseVarType","string","databaseOptCom","NumCasesOfMeatComments"],q,p),P.e(["text",u.z,"type","dropDown","hideNa","true","menuItems",H.a(["Select","1-25","26-50","51-150","150+"],r),"databaseVar","NumCasesOfPerishableItems","databaseVarType","string","databaseOptCom","NumCasesOfPerishableItemsComments"],q,p),P.e(["text","Does the pantry have other foods to distribute with government commodities? (Please indicate other foods in the comments)","type","yesNoNa","databaseVar","PantryHasOtherFoodToDistribute","databaseVarType","bool","databaseOptCom","PantryHasOtherFoodToDistributeComments"],q,p),P.e(["text","Area 1: ","type","fillIn","databaseVar","AreaOneComments","databaseVarType","string"],q,p),P.e(["text","Area 2: ","type","fillIn","databaseVar","AreaTwoComments","databaseVarType","string"],q,p),P.e(["text","Area 3: ","type","fillIn","databaseVar","AreaThreeComments","databaseVarType","string"],q,p),P.e(["text","Area 4: ","type","fillIn","databaseVar","AreaFourComments","databaseVarType","string"],q,p)],t.k)}()
 $.aMN=function(){var s="happyPathResponse",r="Under 0 (acceptable for freezer)",q="0 \u2013 41 (acceptable for cooler)",p="Over 41 (Danger zone)",o="Temperature Unacceptable",n=t.i,m=t.X,l=t.z
-return H.a([P.e(["text","Are units clean?","type","yesNo",s,H.a(["Yes"],n),"scoring",5,"databaseVar","UnitsClean","databaseVarType","bool","databaseOptCom","UnitsCleanComments","actionItem","Clean units. Please specify unit number"],m,l),P.e(["text","Are units defrosted?","type","yesNo",s,H.a(["Yes"],n),"scoring",1,"databaseVar","UnitsDefrosted","databaseVarType","bool","databaseOptCom","UnitsDefrostedComments","actionItem","Defrost units. Please specify unit number"],m,l),P.e(["text","Are units organized?","type","yesNo",s,H.a(["Yes"],n),"scoring",1,"databaseVar","UnitsOrganized","databaseVarType","bool","databaseOptCom","UnitsOrganizedComments","actionItem","Organize units.  Please specify unit number"],m,l),P.e(["text","Is cold food being rotated via FIFO?","type","yesNo",s,H.a(["Yes"],n),"databaseVar","ColdFoodRotatedFIFO","scoring",1,"databaseVarType","bool","databaseOptCom","ColdFoodRotatedFIFOComments","actionItem","Ensure the \u201cFirst in First Out\u201d method is followed with cold food"],m,l),P.e(["text","Do units have thermometers?","type","yesNo",s,H.a(["Yes"],n),"scoring",1,"databaseVar","UnitsHaveThermometers","databaseVarType","bool","databaseOptCom","UnitsHaveThermometersComments","actionItem",u.cv],m,l),P.e(["text",u.c,"type","yesNo",s,H.a(["Yes"],n),"scoring",1,"databaseVar","UnitsOnlyForApprovedPrograms","databaseVarType","bool","databaseOptCom","UnitsOnlyForApprovedProgramsComments","actionItem",u.do],m,l),P.e(["text","Is food appropriately labeled?","type","yesNo",s,H.a(["Yes"],n),"scoring",1,"databaseVar","ColdFoodAppropriatelyLabeled","databaseVarType","bool","databaseOptCom","ColdFoodAppropriatelyLabeledComments","actionItem",u.k],m,l),P.e(["text","Is food appropriately stocked and not overstuffed in units? (Please indicate which units in the comments","type","yesNo",s,H.a(["Yes"],n),"scoring",1,"databaseVar","ColdFoodAppropriatelyStocked","databaseVarType","bool","databaseOptCom","ColdFoodAppropriatelyStockedComments","actionItem",u.fA],m,l),P.e(["text","Are units numbered?","type","yesNo",s,H.a(["Yes"],n),"scoring",1,"databaseVar","UnitsNumbered","databaseVarType","bool","databaseOptCom","UnitsNumberedComments","actionItem",u.fF],m,l),P.e(["text","Is equipment well maintained?","type","yesNo",s,H.a(["Yes"],n),"scoring",1,"databaseVar","ColdEquipmentWellMaintained","databaseVarType","bool","databaseOptCom","ColdEquipmentWellMaintainedComments","actionItem",u.n],m,l),P.e(["text","Are cold storage units secured?","type","yesNo",s,H.a(["Yes"],n),"scoring",1,"databaseVar","ColdStorageUnitsSecured","databaseVarType","bool","databaseOptCom","ColdStorageUnitsSecuredComments","actionItem",u.N],m,l),P.e(["text",u.eZ,"type","yesNo",s,H.a(["Yes"],n),"scoring",5,"databaseVar","RefrigeratedItemsCorrectTemp","databaseVarType","bool","databaseOptCom","RefrigeratedItemsCorrectTempComments","actionItem",u.fH],m,l),P.e(["text",u.gj,"type","yesNo",s,H.a(["Yes"],n),"scoring",5,"databaseVar","FrozenItemsCorrectTemp","databaseVarType","bool","databaseOptCom","FrozenItemsCorrectTempComments","actionItem",u.gz],m,l),P.e(["text","Cold Storage Unit 1 \xbaF","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitOne","databaseVarType","string","databaseOptCom","ColdStorageUnitOneComments","actionItem",u.a_],m,l),P.e(["text","Cold Storage Unit 2 \xbaF","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitTwo","databaseVarType","string","databaseOptCom","ColdStorageUnitTwoComments","actionItem",u.X],m,l),P.e(["text","Cold Storage Unit 3 \xbaF","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitThree","databaseVarType","string","databaseOptCom","ColdStorageUnitThreeComments","actionItem",u.f],m,l),P.e(["text","Cold Storage Unit 4 \xbaF","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitFour","databaseVarType","string","databaseOptCom","ColdStorageUnitFourComments","actionItem",u.u],m,l),P.e(["text","Cold Storage Unit 5 \xbaF","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitFive","databaseVarType","string","databaseOptCom","ColdStorageUnitFiveComments","actionItem",u.L],m,l),P.e(["text","Cold Storage Unit 6 \xbaF","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitSix","databaseVarType","string","databaseOptCom","ColdStorageUnitSixComments","actionItem",u.g],m,l),P.e(["text","Cold Storage Unit 7 \xbaF","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitSeven","databaseVarType","string","databaseOptCom","ColdStorageUnitSevenComments","actionItem",u.fc],m,l),P.e(["text","Cold Storage Unit 8 \xbaF","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitEight","databaseVarType","string","databaseOptCom","ColdStorageUnitEightComments","actionItem",u.du],m,l),P.e(["text","Cold Storage Unit 9 \xbaF","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitNine","databaseVarType","string","databaseOptCom","ColdStorageUnitNineComments","actionItem",u.bO],m,l),P.e(["text","Cold Storage Unit 10 \xbaF","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitTen","databaseVarType","string","databaseOptCom","ColdStorageUnitTenComments","actionItem",u.aD],m,l),P.e(["text","Cold Storage Unit 11 \xbaF","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitEleven","databaseVarType","string","databaseOptCom","ColdStorageUnitElevenComments","actionItem",u.cZ],m,l),P.e(["text","Cold Storage Unit 12 \xbaF","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitTwelve","databaseVarType","string","databaseOptCom","ColdStorageUnitTwelveComments","actionItem",u.ab],m,l),P.e(["text","Cold Storage Unit 13 \xbaF","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitThirteen","databaseVarType","string","databaseOptCom","ColdStorageUnitThirteenComments","actionItem",u.B],m,l),P.e(["text","Cold Storage Unit 14 \xbaF","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitFourteen","databaseVarType","string","databaseOptCom","ColdStorageUnitFourteenComments","actionItem",u.dC],m,l),P.e(["text","Cold Storage Unit 15 \xbaF","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitFifteen","databaseVarType","string","databaseOptCom","ColdStorageUnitFifteenComments","actionItem",u.d_],m,l),P.e(["text","Walk in:","type","dropDown","menuItems",H.a(["Select","Freezer","Cooler","N/A"],n),"databaseVar","WalkInFreezerCoolerOne","databaseVarType","string","databaseOptCom","WalkInFreezerCoolerOneComments"],m,l),P.e(["text","USDA Tag # ","type","fillInNum","databaseVar","USDATagNumberOne","databaseVarType","int"],m,l),P.e(["text","Serial # ","type","fillInNum","databaseVar","SerialNumberOne","databaseVarType","int"],m,l),P.e(["text","Type ","type","fillIn","databaseVar","TypeOne","databaseVarType","string"],m,l),P.e(["text","Walk in Unit 1 \xbaF","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","TempOne","databaseVarType","string","databaseOptCom","TempOneComments"],m,l),P.e(["text","Walk in:","type","dropDown","menuItems",H.a(["Select","Freezer","Cooler","N/A"],n),"databaseVar","WalkInFreezerCoolerTwo","databaseVarType","string","databaseOptCom","WalkInFreezerCoolerTwoComments"],m,l),P.e(["text","USDA Tag # ","type","fillInNum","databaseVar","USDATagNumberTwo","databaseVarType","int"],m,l),P.e(["text","Serial # ","type","fillInNum","databaseVar","SerialNumberTwo","databaseVarType","int"],m,l),P.e(["text","Type ","type","fillIn","databaseVar","TypeTwo","databaseVarType","string"],m,l),P.e(["text","Walk in Unit 2 \xbaF","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","TempTwo","databaseVarType","string","databaseOptCom","TempTwoComments"],m,l),P.e(["text","Walk in:","type","dropDown","menuItems",H.a(["Select","Freezer","Cooler","N/A"],n),"databaseVar","WalkInFreezerCoolerThree","databaseVarType","string","databaseOptCom","WalkInFreezerCoolerThreeComments"],m,l),P.e(["text","USDA Tag # ","type","fillInNum","databaseVar","USDATagNumberThree","databaseVarType","int"],m,l),P.e(["text","Serial # ","type","fillInNum","databaseVar","SerialNumberThree","databaseVarType","int"],m,l),P.e(["text","Type ","type","fillIn","databaseVar","TypeThree","databaseVarType","string"],m,l),P.e(["text","Walk in Unit 3 \xbaF","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","TempThree","databaseVarType","string","databaseOptCom","TempThreeComments"],m,l),P.e(["text","Walk in:","type","dropDown","menuItems",H.a(["Select","Freezer","Cooler","N/A"],n),"databaseVar","WalkInFreezerCoolerFour","databaseVarType","string","databaseOptCom","WalkInFreezerCoolerFourComments"],m,l),P.e(["text","USDA Tag # ","type","fillInNum","databaseVar","USDATagNumberFour","databaseVarType","int"],m,l),P.e(["text","Serial # ","type","fillInNum","databaseVar","SerialNumberFour","databaseVarType","int"],m,l),P.e(["text","Type ","type","fillIn","databaseVar","TypeFour","databaseVarType","string"],m,l),P.e(["text","Walk in Unit 4 \xbaF","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","TempFour","databaseVarType","string","databaseOptCom","TempFourComments"],m,l),P.e(["text","Walk in:","type","dropDown","menuItems",H.a(["Select","Freezer","Cooler","N/A"],n),"databaseVar","WalkInFreezerCoolerFive","databaseVarType","string","databaseOptCom","WalkInFreezerCoolerFiveComments"],m,l),P.e(["text","USDA Tag # ","type","fillInNum","databaseVar","USDATagNumberFive","databaseVarType","int"],m,l),P.e(["text","Serial # ","type","fillInNum","databaseVar","SerialNumberFive","databaseVarType","int"],m,l),P.e(["text","Type ","type","fillIn","databaseVar","TypeFive","databaseVarType","string"],m,l),P.e(["text","Walk in Unit 5 \xbaF","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","TempFive","databaseVarType","string","databaseOptCom","TempFiveComments"],m,l),P.e(["text",u.l,"type","Display"],m,l)],t.k)}()
+return H.a([P.e(["text","Are units clean?","type","yesNo",s,H.a(["Yes"],n),"scoring",5,"databaseVar","UnitsClean","databaseVarType","bool","databaseOptCom","UnitsCleanComments","actionItem","Clean units. Please specify unit number"],m,l),P.e(["text","Are units defrosted?","type","yesNo",s,H.a(["Yes"],n),"scoring",1,"databaseVar","UnitsDefrosted","databaseVarType","bool","databaseOptCom","UnitsDefrostedComments","actionItem","Defrost units. Please specify unit number"],m,l),P.e(["text","Are units organized?","type","yesNo",s,H.a(["Yes"],n),"scoring",1,"databaseVar","UnitsOrganized","databaseVarType","bool","databaseOptCom","UnitsOrganizedComments","actionItem","Organize units.  Please specify unit number"],m,l),P.e(["text","Is cold food being rotated via FIFO?","type","yesNo",s,H.a(["Yes"],n),"databaseVar","ColdFoodRotatedFIFO","scoring",1,"databaseVarType","bool","databaseOptCom","ColdFoodRotatedFIFOComments","actionItem","Ensure the \u201cFirst in First Out\u201d method is followed with cold food"],m,l),P.e(["text","Do units have thermometers?","type","yesNo",s,H.a(["Yes"],n),"scoring",1,"databaseVar","UnitsHaveThermometers","databaseVarType","bool","databaseOptCom","UnitsHaveThermometersComments","actionItem",u.cv],m,l),P.e(["text",u.c,"type","yesNo",s,H.a(["Yes"],n),"scoring",1,"databaseVar","UnitsOnlyForApprovedPrograms","databaseVarType","bool","databaseOptCom","UnitsOnlyForApprovedProgramsComments","actionItem",u.do],m,l),P.e(["text","Is food appropriately labeled?","type","yesNo",s,H.a(["Yes"],n),"scoring",1,"databaseVar","ColdFoodAppropriatelyLabeled","databaseVarType","bool","databaseOptCom","ColdFoodAppropriatelyLabeledComments","actionItem",u.k],m,l),P.e(["text","Is food appropriately stocked and not overstuffed in units? (Please indicate which units in the comments)","type","yesNo",s,H.a(["Yes"],n),"scoring",1,"databaseVar","ColdFoodAppropriatelyStocked","databaseVarType","bool","databaseOptCom","ColdFoodAppropriatelyStockedComments","actionItem",u.fA],m,l),P.e(["text","Are units numbered?","type","yesNo",s,H.a(["Yes"],n),"scoring",1,"databaseVar","UnitsNumbered","databaseVarType","bool","databaseOptCom","UnitsNumberedComments","actionItem",u.fF],m,l),P.e(["text","Is equipment well maintained?","type","yesNo",s,H.a(["Yes"],n),"scoring",1,"databaseVar","ColdEquipmentWellMaintained","databaseVarType","bool","databaseOptCom","ColdEquipmentWellMaintainedComments","actionItem",u.n],m,l),P.e(["text","Are cold storage units secured?","type","yesNo",s,H.a(["Yes"],n),"scoring",1,"databaseVar","ColdStorageUnitsSecured","databaseVarType","bool","databaseOptCom","ColdStorageUnitsSecuredComments","actionItem",u.N],m,l),P.e(["text",u.eZ,"type","yesNo",s,H.a(["Yes"],n),"scoring",5,"databaseVar","RefrigeratedItemsCorrectTemp","databaseVarType","bool","databaseOptCom","RefrigeratedItemsCorrectTempComments","actionItem",u.fH],m,l),P.e(["text",u.gj,"type","yesNo",s,H.a(["Yes"],n),"scoring",5,"databaseVar","FrozenItemsCorrectTemp","databaseVarType","bool","databaseOptCom","FrozenItemsCorrectTempComments","actionItem",u.gz],m,l),P.e(["text","Cold Storage Unit 1 \xbaF:","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitOne","databaseVarType","string","databaseOptCom","ColdStorageUnitOneComments","actionItem",u.a_],m,l),P.e(["text","Cold Storage Unit 2 \xbaF:","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitTwo","databaseVarType","string","databaseOptCom","ColdStorageUnitTwoComments","actionItem",u.X],m,l),P.e(["text","Cold Storage Unit 3 \xbaF:","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitThree","databaseVarType","string","databaseOptCom","ColdStorageUnitThreeComments","actionItem",u.f],m,l),P.e(["text","Cold Storage Unit 4 \xbaF:","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitFour","databaseVarType","string","databaseOptCom","ColdStorageUnitFourComments","actionItem",u.u],m,l),P.e(["text","Cold Storage Unit 5 \xbaF:","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitFive","databaseVarType","string","databaseOptCom","ColdStorageUnitFiveComments","actionItem",u.L],m,l),P.e(["text","Cold Storage Unit 6 \xbaF:","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitSix","databaseVarType","string","databaseOptCom","ColdStorageUnitSixComments","actionItem",u.g],m,l),P.e(["text","Cold Storage Unit 7 \xbaF:","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitSeven","databaseVarType","string","databaseOptCom","ColdStorageUnitSevenComments","actionItem",u.fc],m,l),P.e(["text","Cold Storage Unit 8 \xbaF:","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitEight","databaseVarType","string","databaseOptCom","ColdStorageUnitEightComments","actionItem",u.du],m,l),P.e(["text","Cold Storage Unit 9 \xbaF:","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitNine","databaseVarType","string","databaseOptCom","ColdStorageUnitNineComments","actionItem",u.bO],m,l),P.e(["text","Cold Storage Unit 10 \xbaF:","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitTen","databaseVarType","string","databaseOptCom","ColdStorageUnitTenComments","actionItem",u.aD],m,l),P.e(["text","Cold Storage Unit 11 \xbaF:","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitEleven","databaseVarType","string","databaseOptCom","ColdStorageUnitElevenComments","actionItem",u.cZ],m,l),P.e(["text","Cold Storage Unit 12 \xbaF:","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitTwelve","databaseVarType","string","databaseOptCom","ColdStorageUnitTwelveComments","actionItem",u.ab],m,l),P.e(["text","Cold Storage Unit 13 \xbaF:","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitThirteen","databaseVarType","string","databaseOptCom","ColdStorageUnitThirteenComments","actionItem",u.B],m,l),P.e(["text","Cold Storage Unit 14 \xbaF:","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitFourteen","databaseVarType","string","databaseOptCom","ColdStorageUnitFourteenComments","actionItem",u.dC],m,l),P.e(["text","Cold Storage Unit 15 \xbaF:","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","ColdStorageUnitFifteen","databaseVarType","string","databaseOptCom","ColdStorageUnitFifteenComments","actionItem",u.d_],m,l),P.e(["text","Walk in:","type","dropDown","menuItems",H.a(["Select","Freezer","Cooler","N/A"],n),"databaseVar","WalkInFreezerCoolerOne","databaseVarType","string","databaseOptCom","WalkInFreezerCoolerOneComments"],m,l),P.e(["text","USDA Tag #:","type","fillInNum","databaseVar","USDATagNumberOne","databaseVarType","int"],m,l),P.e(["text","Serial #:","type","fillInNum","databaseVar","SerialNumberOne","databaseVarType","int"],m,l),P.e(["text","Type:","type","fillIn","databaseVar","TypeOne","databaseVarType","string"],m,l),P.e(["text","Walk in Unit 1 \xbaF:","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","TempOne","databaseVarType","string","databaseOptCom","TempOneComments"],m,l),P.e(["text","Walk in:","type","dropDown","menuItems",H.a(["Select","Freezer","Cooler","N/A"],n),"databaseVar","WalkInFreezerCoolerTwo","databaseVarType","string","databaseOptCom","WalkInFreezerCoolerTwoComments"],m,l),P.e(["text","USDA Tag #:","type","fillInNum","databaseVar","USDATagNumberTwo","databaseVarType","int"],m,l),P.e(["text","Serial #:","type","fillInNum","databaseVar","SerialNumberTwo","databaseVarType","int"],m,l),P.e(["text","Type:","type","fillIn","databaseVar","TypeTwo","databaseVarType","string"],m,l),P.e(["text","Walk in Unit 2 \xbaF:","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","TempTwo","databaseVarType","string","databaseOptCom","TempTwoComments"],m,l),P.e(["text","Walk in:","type","dropDown","menuItems",H.a(["Select","Freezer","Cooler","N/A"],n),"databaseVar","WalkInFreezerCoolerThree","databaseVarType","string","databaseOptCom","WalkInFreezerCoolerThreeComments"],m,l),P.e(["text","USDA Tag #:","type","fillInNum","databaseVar","USDATagNumberThree","databaseVarType","int"],m,l),P.e(["text","Serial #:","type","fillInNum","databaseVar","SerialNumberThree","databaseVarType","int"],m,l),P.e(["text","Type:","type","fillIn","databaseVar","TypeThree","databaseVarType","string"],m,l),P.e(["text","Walk in Unit 3 \xbaF:","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","TempThree","databaseVarType","string","databaseOptCom","TempThreeComments"],m,l),P.e(["text","Walk in:","type","dropDown","menuItems",H.a(["Select","Freezer","Cooler","N/A"],n),"databaseVar","WalkInFreezerCoolerFour","databaseVarType","string","databaseOptCom","WalkInFreezerCoolerFourComments"],m,l),P.e(["text","USDA Tag #:","type","fillInNum","databaseVar","USDATagNumberFour","databaseVarType","int"],m,l),P.e(["text","Serial #:","type","fillInNum","databaseVar","SerialNumberFour","databaseVarType","int"],m,l),P.e(["text","Type:","type","fillIn","databaseVar","TypeFour","databaseVarType","string"],m,l),P.e(["text","Walk in Unit 4 \xbaF:","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","TempFour","databaseVarType","string","databaseOptCom","TempFourComments"],m,l),P.e(["text","Walk in:","type","dropDown","menuItems",H.a(["Select","Freezer","Cooler","N/A"],n),"databaseVar","WalkInFreezerCoolerFive","databaseVarType","string","databaseOptCom","WalkInFreezerCoolerFiveComments"],m,l),P.e(["text","USDA Tag #:","type","fillInNum","databaseVar","USDATagNumberFive","databaseVarType","int"],m,l),P.e(["text","Serial #:","type","fillInNum","databaseVar","SerialNumberFive","databaseVarType","int"],m,l),P.e(["text","Type:","type","fillIn","databaseVar","TypeFive","databaseVarType","string"],m,l),P.e(["text","Walk in Unit 5 \xbaF:","type","dropDown","menuItems",H.a(["Select",r,q,p,o,"N/A"],n),s,H.a([r,q,"N/A"],n),"databaseVar","TempFive","databaseVarType","string","databaseOptCom","TempFiveComments"],m,l),P.e(["text",u.l,"type","Display"],m,l)],t.k)}()
 $.aMO=function(){var s="happyPathResponse",r=t.i,q=t.X,p=t.z
 return H.a([P.e(["text","Plumbing issues?","type","issuesNoIssues",s,H.a(["No Issues"],r),"scoring",1,"databaseVar","PlumbingIssues","databaseVarType","bool","databaseOptCom","PlumbingIssuesComments","actionItem",u.q],q,p),P.e(["text","Sewage issues?","type","issuesNoIssues",s,H.a(["No Issues"],r),"scoring",1,"databaseVar","SewageIssues","databaseVarType","bool","databaseOptCom","SewageIssuesComments","actionItem",u.m],q,p),P.e(["text","Garbage and refuse disposal","type","issuesNoIssues",s,H.a(["No Issues"],r),"scoring",1,"databaseVar","GarbageRefusalDisposalIssues","databaseVarType","bool","databaseOptCom","GarbageRefusalDisposalIssuesComments","actionItem",u.o],q,p),P.e(["text",u.et,"type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","PestControlReport","databaseVarType","bool","databaseOptCom","PestControlReportComments","actionItem",u.O],q,p),P.e(["text","Name of Pest Control Company:","type","fillIn","databaseVar","PestControlCompany","databaseVarType","string"],q,p),P.e(["text","Last Pest Control Service Date:","type","date","databaseVar","PestControlServiceDate","databaseVarType","date","databaseOptCom","PestControlServiceDateComments"],q,p),P.e(["text",u.a,"type","yesNo",s,H.a(["Yes"],r),"scoring",1,"databaseVar","BuildingWellSealed","databaseVarType","bool","databaseOptCom","BuildingWellSealedComments","actionItem",u.i],q,p),P.e(["text","Appropriate Lighting issues?","type","issuesNoIssues",s,H.a(["No Issues"],r),"scoring",1,"databaseVar","AppropriateLightingIssues","databaseVarType","bool","databaseOptCom","AppropriateLightingIssuesComments","actionItem",u.U],q,p),P.e(["text","Ventilation Issues?","type","issuesNoIssues",s,H.a(["No Issues"],r),"scoring",1,"databaseVar","VentilationIssues","databaseVarType","bool","databaseOptCom","VentilationIssuesComments","actionItem",u.E],q,p),P.e(["text",u.gL,"type","issuesNoIssues",s,H.a(["No Issues"],r),"scoring",1,"databaseVar","AccessToAllPertinentAreasIssues","databaseVarType","bool","databaseOptCom","AccessToAllPertinentAreasIssuesComments","actionItem",u.S],q,p),P.e(["text",u.dj,"type","yesNo",s,H.a(["No"],r),"scoring",5,"databaseVar","EvidenceOfPests","databaseVarType","bool","databaseOptCom","EvidenceOfPestsComments","actionItem",u.dw],q,p)],t.k)}()
 $.aMP=function(){var s=t.X,r=t.z
-return H.a([P.e(["text",u.bQ,"type","yesNo","databaseVar","DiscriminationComplaints","databaseVarType","bool","databaseOptCom","DiscriminationComplaintsComments"],s,r),P.e(["text",u.V,"type","yesNo","databaseVar",u.K,"databaseVarType","bool","databaseOptCom",u.T],s,r),P.e(["text",u.bP,"type","yesNoNa","databaseVar","DiscriminationComplaintForwardedToGCFD","databaseVarType","bool","databaseOptCom",u.dl],s,r),P.e(["text",u.e0,"type","fillIn","hideNa","true","databaseVar",u.w,"databaseVarType","string"],s,r),P.e(["text","Issues from last site visit?","type","fillIn","databaseVar","IssuesFromLastSiteVisit","databaseVarType","string"],s,r),P.e(["text","Distribution Site Staff Comments: ","type","fillIn","databaseVar","DistributionSiteStaffComments","databaseVarType","string"],s,r),P.e(["text","Food Depository Comments","type","fillIn","databaseVar","FoodDepositoryComments","databaseVarType","string"],s,r),P.e(["text","Donors","type","fillIn","databaseVarType","string","databaseVar","Donors"],s,r),P.e(["text","Date Tax Exemption Verified","type","date","databaseVarType","date","databaseVar","DateTaxExemptionVerified"],s,r),P.e(["text","Re-verified by:","type","fillIn","databaseVarType","string","databaseVar","ReVerifiedBy"],s,r),P.e(["text","GCFD Monitor","type","fillIn","databaseVarType","string","databaseVar","GCFDMonitor"],s,r),P.e(["text","Reviewed by","type","fillIn","databaseVarType","string","databaseVar","ReviewedBy"],s,r),P.e(["text","Findings Found:","type","yesNo","databaseVarType","bool","databaseVar","FindingsFound","databaseOptCom","FindingsFoundComments"],s,r)],t.k)}()
+return H.a([P.e(["text",u.bQ,"type","yesNo","databaseVar","DiscriminationComplaints","databaseVarType","bool","databaseOptCom","DiscriminationComplaintsComments"],s,r),P.e(["text",u.V,"type","yesNo","databaseVar",u.K,"databaseVarType","bool","databaseOptCom",u.T],s,r),P.e(["text",u.bP,"type","yesNoNa","databaseVar","DiscriminationComplaintForwardedToGCFD","databaseVarType","bool","databaseOptCom",u.dl],s,r),P.e(["text",u.e0,"type","fillIn","hideNa","true","databaseVar",u.w,"databaseVarType","string"],s,r),P.e(["text","Issues from last site visit?","type","fillIn","databaseVar","IssuesFromLastSiteVisit","databaseVarType","string"],s,r),P.e(["text","Distribution Site Staff Comments: ","type","fillIn","databaseVar","DistributionSiteStaffComments","databaseVarType","string"],s,r),P.e(["text","Food Depository Comments:","type","fillIn","databaseVar","FoodDepositoryComments","databaseVarType","string"],s,r),P.e(["text","Donors:","type","fillIn","databaseVarType","string","databaseVar","Donors"],s,r),P.e(["text","Date Tax Exemption Verified:","type","date","databaseVarType","date","databaseVar","DateTaxExemptionVerified"],s,r),P.e(["text","Re-verified by:","type","fillIn","databaseVarType","string","databaseVar","ReVerifiedBy"],s,r),P.e(["text","GCFD Monitor:","type","fillIn","databaseVarType","string","databaseVar","GCFDMonitor"],s,r),P.e(["text","Reviewed by:","type","fillIn","databaseVarType","string","databaseVar","ReviewedBy"],s,r),P.e(["text","Findings Found:","type","yesNo","databaseVarType","bool","databaseVar","FindingsFound","databaseOptCom","FindingsFoundComments"],s,r)],t.k)}()
 $.aOk=H.a([P.e(["filler","material"],t.X,t.z)],t.k)
 $.aOu=H.a([P.e(["filler","material"],t.X,t.z)],t.k)
 $.aOT=H.a([P.e(["filler","material"],t.X,t.z)],t.k)
