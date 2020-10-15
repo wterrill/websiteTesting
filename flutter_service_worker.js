@@ -3,22 +3,21 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "e760514ae30981d3956ff87d86dc83d1",
-"index.html": "cc570caa0a9c56b3480bac401f80ebde",
-"/": "cc570caa0a9c56b3480bac401f80ebde",
-"main.dart.js": "3e7f4a8d8d329db0fb65dc39ce4d4fa4",
+  "version.json": "16977f802c8dbddda31d304469ee2df9",
+"index.html": "a47ba470539147bcd03c0665112cd765",
+"/": "a47ba470539147bcd03c0665112cd765",
+"main.dart.js": "a519847712f336629606bdd7f51313f3",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"manifest.json": "f7446118402704050fa5925804992cbe",
-"assets/AssetManifest.json": "3d7711ef371c05aceb58cffea2586b65",
-"assets/NOTICES": "542cda93f20f5416db4a09d3ba6d7eb4",
-"assets/FontManifest.json": "f0eeca7a55b8e00a55ab2ca6a7431d38",
+"manifest.json": "b0b72ca207f76770c1860cb6fda1f005",
+"assets/AssetManifest.json": "d838265a979c2114d623809d84bf0fbf",
+"assets/NOTICES": "b93e4750cf5510763a3a36f3a9436a89",
+"assets/FontManifest.json": "28a0b4076b1bf056bae206b12921e14a",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "2aa350bd2aeab88b601a593f793734c0",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "2bca5ec802e40d3f4b60343e346cedde",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "5a37ae808cf9f652198acde612b5328d",
-"assets/fonts/RobotoSlab-VariableFont_wght.ttf": "0b2aeb1c9f580b22533476443b47f0ad",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/assets/images/GCFD_Logo.png": "c6d8aaab6dc03cd052b4de51848bae80",
 "assets/assets/images/gcfdIcon.png": "34264cc903e1e50d051e3bf1f2c92292",
@@ -32,7 +31,8 @@ const RESOURCES = {
 "assets/assets/images/CMRI_sign.png": "e0518cd67be0caf343f8c2250a851687",
 "assets/assets/images/OLD_CMRI_top.png": "31d09736af4df23365908f17025f9b6f",
 "assets/assets/images/footer-logo.png": "a54482a62d0a07dc114fd057d12034f2",
-"assets/assets/images/CMRI_top.png": "3289223de011a20f25440e2addb39d65"
+"assets/assets/images/CMRI_top.png": "3289223de011a20f25440e2addb39d65",
+"assets/assets/fonts/RobotoSlab-VariableFont_wght.ttf": "0b2aeb1c9f580b22533476443b47f0ad"
 };
 
 // The application shell files that are downloaded before a service worker can
