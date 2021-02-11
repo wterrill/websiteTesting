@@ -3,21 +3,21 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "007878d305ac209103abf2d13886677c",
-"index.html": "6ba32ce61f633b5e573c2a877a3c8575",
-"/": "6ba32ce61f633b5e573c2a877a3c8575",
-"main.dart.js": "8edb399da8d8d01434bc23eddbb680f4",
+  "version.json": "7b3958f75e0c2ed5b1c03394fdc4a5d7",
+"index.html": "72983696eabeb2033ee70df2d9e722ac",
+"/": "72983696eabeb2033ee70df2d9e722ac",
+"main.dart.js": "401d2026e1755ce311cc3c56f01d767d",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "b0b72ca207f76770c1860cb6fda1f005",
 "assets/AssetManifest.json": "7e93c3c6062ff18641f7feef91300d24",
-"assets/NOTICES": "790374836e05d27773af82051847b0a5",
+"assets/NOTICES": "bfa0ae4fed8ecf2945b3a8bb55d54b13",
 "assets/FontManifest.json": "28a0b4076b1bf056bae206b12921e14a",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "2aa350bd2aeab88b601a593f793734c0",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "2bca5ec802e40d3f4b60343e346cedde",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "5a37ae808cf9f652198acde612b5328d",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "d80ca32233940ebadc5ae5372ccd67f9",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "a126c025bab9a1b4d8ac5534af76a208",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "831eb40a2d76095849ba4aecd4340f19",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/assets/images/GCFD_Logo.png": "c6d8aaab6dc03cd052b4de51848bae80",
 "assets/assets/images/gcfdIcon.png": "34264cc903e1e50d051e3bf1f2c92292",
@@ -176,7 +176,7 @@ async function downloadOffline() {
     }
     currentContent[key] = true;
   }
-  for (var resourceKey in Object.keys(RESOURCES)) {
+  for (var resourceKey of Object.keys(RESOURCES)) {
     if (!currentContent[resourceKey]) {
       resources.push(resourceKey);
     }
