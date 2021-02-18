@@ -3,21 +3,23 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "918285a617f0931d922928c87b0aadcd",
-"index.html": "bed17e641973de86ea9efebe1e825d3b",
-"/": "bed17e641973de86ea9efebe1e825d3b",
-"main.dart.js": "fdee0c597bcc24c3407eae4bacfa6633",
+  "version.json": "fa3e44f060d2141f8aba5025c942054e",
+"index.html": "94c34cc9fb89a9b28a9cc7a7af823900",
+"/": "94c34cc9fb89a9b28a9cc7a7af823900",
+"main.dart.js": "17105ff3f2f11aadc34648e692d892ac",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "b0b72ca207f76770c1860cb6fda1f005",
-"assets/AssetManifest.json": "7e93c3c6062ff18641f7feef91300d24",
-"assets/NOTICES": "3d772529b4bdf9fc9ec6848767926b62",
+"assets/AssetManifest.json": "7e3f5be976eb3004d63389705361aff8",
+"assets/NOTICES": "717547b6a9670c369a438c57f3c062da",
 "assets/FontManifest.json": "28a0b4076b1bf056bae206b12921e14a",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "2aa350bd2aeab88b601a593f793734c0",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "2bca5ec802e40d3f4b60343e346cedde",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "5a37ae808cf9f652198acde612b5328d",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "d80ca32233940ebadc5ae5372ccd67f9",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "a126c025bab9a1b4d8ac5534af76a208",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "831eb40a2d76095849ba4aecd4340f19",
+"assets/packages/fluttertoast/assets/toastify.js": "8f5ac78dd0b9b5c9959ea1ade77f68ae",
+"assets/packages/fluttertoast/assets/toastify.css": "8beb4c67569fb90146861e66d94163d7",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/assets/images/GCFD_Logo.png": "c6d8aaab6dc03cd052b4de51848bae80",
 "assets/assets/images/gcfdIcon.png": "34264cc903e1e50d051e3bf1f2c92292",
@@ -176,7 +178,7 @@ async function downloadOffline() {
     }
     currentContent[key] = true;
   }
-  for (var resourceKey in Object.keys(RESOURCES)) {
+  for (var resourceKey of Object.keys(RESOURCES)) {
     if (!currentContent[resourceKey]) {
       resources.push(resourceKey);
     }
